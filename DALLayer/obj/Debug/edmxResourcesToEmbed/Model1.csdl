@@ -1,0 +1,2097 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OK_DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AccountBalance">
+    <Key>
+      <PropertyRef Name="accCode" />
+    </Key>
+    <Property Name="accCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Balance" Type="Decimal" Precision="30" Scale="2" />
+    <Property Name="DebitAmount" Type="Decimal" Precision="30" Scale="2" />
+    <Property Name="CreditAmount" Type="Decimal" Precision="30" Scale="2" />
+    <NavigationProperty Name="Accounts" Relationship="Self.FK_AccountBalance_Accounts" FromRole="AccountBalance" ToRole="Accounts" />
+  </EntityType>
+  <EntityType Name="Accounts">
+    <Key>
+      <PropertyRef Name="accCode" />
+    </Key>
+    <Property Name="accCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="accName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="accLevel" Type="Int32" />
+    <Property Name="MainAccCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="typeCode" Type="Int32" />
+    <Property Name="AllowManualEntry" Type="Boolean" />
+    <NavigationProperty Name="AccountBalance" Relationship="Self.FK_AccountBalance_Accounts" FromRole="Accounts" ToRole="AccountBalance" />
+    <NavigationProperty Name="AccountType" Relationship="Self.FK_Accounts_AccountType" FromRole="Accounts" ToRole="AccountType" />
+    <NavigationProperty Name="CustomerPosting" Relationship="Self.FK_CustomerPosting_Accounts" FromRole="Accounts" ToRole="CustomerPosting" />
+    <NavigationProperty Name="CustomerPosting1" Relationship="Self.FK_CustomerPosting_Accounts1" FromRole="Accounts" ToRole="CustomerPosting" />
+    <NavigationProperty Name="ItemPosting" Relationship="Self.FK_ItemPosting_Accounts" FromRole="Accounts" ToRole="ItemPosting" />
+    <NavigationProperty Name="ItemPosting1" Relationship="Self.FK_ItemPosting_Accounts1" FromRole="Accounts" ToRole="ItemPosting" />
+    <NavigationProperty Name="ItemPosting2" Relationship="Self.FK_ItemPosting_Accounts2" FromRole="Accounts" ToRole="ItemPosting" />
+    <NavigationProperty Name="ItemPosting3" Relationship="Self.FK_ItemPosting_Accounts3" FromRole="Accounts" ToRole="ItemPosting" />
+    <NavigationProperty Name="ItemPosting4" Relationship="Self.FK_ItemPosting_Accounts4" FromRole="Accounts" ToRole="ItemPosting" />
+    <NavigationProperty Name="ItemPosting5" Relationship="Self.FK_ItemPosting_Accounts5" FromRole="Accounts" ToRole="ItemPosting" />
+    <NavigationProperty Name="ItemPosting6" Relationship="Self.FK_ItemPosting_Accounts6" FromRole="Accounts" ToRole="ItemPosting" />
+    <NavigationProperty Name="ItemPosting7" Relationship="Self.FK_ItemPosting_Accounts7" FromRole="Accounts" ToRole="ItemPosting" />
+    <NavigationProperty Name="ItemPosting8" Relationship="Self.FK_ItemPosting_Accounts8" FromRole="Accounts" ToRole="ItemPosting" />
+    <NavigationProperty Name="StructureDeminsions" Relationship="Self.FK_StrucrureDeminsions_Accounts" FromRole="Accounts" ToRole="StructureDeminsions" />
+    <NavigationProperty Name="VendorPosting" Relationship="Self.FK_VendorPosting_Accounts" FromRole="Accounts" ToRole="VendorPosting" />
+    <NavigationProperty Name="VendorPosting1" Relationship="Self.FK_VendorPosting_Accounts1" FromRole="Accounts" ToRole="VendorPosting" />
+  </EntityType>
+  <EntityType Name="AccountStructure">
+    <Key>
+      <PropertyRef Name="StructureCode" />
+    </Key>
+    <Property Name="StructureCode" Type="Int32" Nullable="false" />
+    <Property Name="StructureName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="StructureDeminsions" Relationship="Self.FK_StrucrureDeminsions_AccountStructure" FromRole="AccountStructure" ToRole="StructureDeminsions" />
+  </EntityType>
+  <EntityType Name="AccountType">
+    <Key>
+      <PropertyRef Name="typeCode" />
+    </Key>
+    <Property Name="typeCode" Type="Int32" Nullable="false" />
+    <Property Name="typeName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Accounts" Relationship="Self.FK_Accounts_AccountType" FromRole="AccountType" ToRole="Accounts" />
+  </EntityType>
+  <EntityType Name="City">
+    <Key>
+      <PropertyRef Name="City_Code" />
+    </Key>
+    <Property Name="City_Code" Type="Int32" Nullable="false" />
+    <Property Name="City_Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Country_Code" Type="Int32" />
+    <NavigationProperty Name="Site" Relationship="Self.FK_Branch_City" FromRole="City" ToRole="Site" />
+    <NavigationProperty Name="Country" Relationship="Self.FK_City_Country1" FromRole="City" ToRole="Country" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK_Customer_City" FromRole="City" ToRole="Customer" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_Employee_City" FromRole="City" ToRole="Employee" />
+    <NavigationProperty Name="Organization" Relationship="Self.FK_Organization_City" FromRole="City" ToRole="Organization" />
+    <NavigationProperty Name="Vendor" Relationship="Self.FK_Vendor_City" FromRole="City" ToRole="Vendor" />
+  </EntityType>
+  <EntityType Name="Country">
+    <Key>
+      <PropertyRef Name="Country_Code" />
+    </Key>
+    <Property Name="Country_Code" Type="Int32" Nullable="false" />
+    <Property Name="Country_Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="City" Relationship="Self.FK_City_Country1" FromRole="Country" ToRole="City" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Customer_Code" />
+    </Key>
+    <Property Name="Customer_Code" Type="Int32" Nullable="false" />
+    <Property Name="Customer_Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="City_Code" Type="Int32" />
+    <Property Name="Mobile1" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Mobile2" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="EMail" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="FaceBook" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Notes" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CreditLimit" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="GroupCode" Type="Int32" />
+    <NavigationProperty Name="City" Relationship="Self.FK_Customer_City" FromRole="Customer" ToRole="City" />
+    <NavigationProperty Name="CustomerGroup" Relationship="Self.FK_Customer_CustomerGroup" FromRole="Customer" ToRole="CustomerGroup" />
+    <NavigationProperty Name="SalesHeader" Relationship="Self.FK_SalesHeader_Customer" FromRole="Customer" ToRole="SalesHeader" />
+  </EntityType>
+  <EntityType Name="CustomerGroup">
+    <Key>
+      <PropertyRef Name="GroupCode" />
+    </Key>
+    <Property Name="GroupCode" Type="Int32" Nullable="false" />
+    <Property Name="GroupName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK_Customer_CustomerGroup" FromRole="CustomerGroup" ToRole="Customer" />
+    <NavigationProperty Name="CustomerPosting" Relationship="Self.FK_CustomerPosting_CustomerGroup" FromRole="CustomerGroup" ToRole="CustomerPosting" />
+  </EntityType>
+  <EntityType Name="CustomerPosting">
+    <Key>
+      <PropertyRef Name="CustomerGroupCode" />
+    </Key>
+    <Property Name="CustomerGroupCode" Type="Int32" Nullable="false" />
+    <Property Name="CustomerAccount" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CashAccount" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Accounts" Relationship="Self.FK_CustomerPosting_Accounts" FromRole="CustomerPosting" ToRole="Accounts" />
+    <NavigationProperty Name="Accounts1" Relationship="Self.FK_CustomerPosting_Accounts1" FromRole="CustomerPosting" ToRole="Accounts" />
+    <NavigationProperty Name="CustomerGroup" Relationship="Self.FK_CustomerPosting_CustomerGroup" FromRole="CustomerPosting" ToRole="CustomerGroup" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="Employee_Code" />
+    </Key>
+    <Property Name="Employee_Code" Type="Int32" Nullable="false" />
+    <Property Name="Employee_Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Manager_Code" Type="Int32" />
+    <Property Name="Job_Code" Type="Int32" />
+    <Property Name="BirthDate" Type="DateTime" Precision="0" />
+    <Property Name="HireDate" Type="DateTime" Precision="0" />
+    <Property Name="Employee_Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="City_Code" Type="Int32" />
+    <Property Name="Email" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="LinkedIn" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="FaceBook" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Mobile1" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Mobile2" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaritalStatus_Code" Type="Int32" />
+    <Property Name="FixedSalary" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="MotivateSalary" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="NetSalary" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="FinDemCode" Type="Int64" />
+    <NavigationProperty Name="City" Relationship="Self.FK_Employee_City" FromRole="Employee" ToRole="City" />
+    <NavigationProperty Name="FinancialDeminsions" Relationship="Self.FK_Employee_FinancialDeminsions" FromRole="Employee" ToRole="FinancialDeminsions" />
+    <NavigationProperty Name="Job" Relationship="Self.FK_Employee_Job" FromRole="Employee" ToRole="Job" />
+    <NavigationProperty Name="MaritalStatus" Relationship="Self.FK_Employee_MaritalStatus" FromRole="Employee" ToRole="MaritalStatus" />
+    <NavigationProperty Name="User" Relationship="Self.FK_User_Employee" FromRole="Employee" ToRole="User" />
+    <NavigationProperty Name="WareHouse" Relationship="Self.FK_WareHouse_Employee" FromRole="Employee" ToRole="WareHouse" />
+  </EntityType>
+  <EntityType Name="Expired_Date">
+    <Key>
+      <PropertyRef Name="Expired_Code" />
+    </Key>
+    <Property Name="Expired_Code" Type="Int32" Nullable="false" />
+    <Property Name="Expired_Date1" Type="DateTime" Precision="0" />
+    <Property Name="Product_Code" Type="Int32" />
+    <Property Name="Inventory_Code" Type="Int32" />
+    <Property Name="Qty" Type="Decimal" Precision="18" Scale="2" />
+    <NavigationProperty Name="WareHouse" Relationship="Self.FK_Expired_Date_Inventory" FromRole="Expired_Date" ToRole="WareHouse" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_Expired_Date_Product" FromRole="Expired_Date" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="FinancialCategory">
+    <Key>
+      <PropertyRef Name="FinCatCode" />
+    </Key>
+    <Property Name="FinCatCode" Type="Int32" Nullable="false" />
+    <Property Name="FinCatName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="FinancialDeminsions" Relationship="Self.FK_FinancialDeminsions_FinancialCategory" FromRole="FinancialCategory" ToRole="FinancialDeminsions" />
+    <NavigationProperty Name="StructureDeminsions" Relationship="Self.FK_StrucrureDeminsions_FinancialCategory" FromRole="FinancialCategory" ToRole="StructureDeminsions" />
+  </EntityType>
+  <EntityType Name="FinancialDeminsions">
+    <Key>
+      <PropertyRef Name="FinDemCode" />
+    </Key>
+    <Property Name="FinDemCode" Type="Int64" Nullable="false" />
+    <Property Name="FinDemName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="FinCatCode" Type="Int32" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_Employee_FinancialDeminsions" FromRole="FinancialDeminsions" ToRole="Employee" />
+    <NavigationProperty Name="FinancialCategory" Relationship="Self.FK_FinancialDeminsions_FinancialCategory" FromRole="FinancialDeminsions" ToRole="FinancialCategory" />
+  </EntityType>
+  <EntityType Name="ItemPosting">
+    <Key>
+      <PropertyRef Name="ProductGroupCode" />
+    </Key>
+    <Property Name="ProductGroupCode" Type="Int32" Nullable="false" />
+    <Property Name="IssueAccount" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ConsumptionAccount" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="RevenueAccount" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SalesDiscountAccount" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SalesTaxesAccount" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ProductRecieptAccount" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PurchaseAccrualAccount" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PurchaseDiscountAccount" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PurchaseTaxesAccount" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Accounts" Relationship="Self.FK_ItemPosting_Accounts" FromRole="ItemPosting" ToRole="Accounts" />
+    <NavigationProperty Name="Accounts1" Relationship="Self.FK_ItemPosting_Accounts1" FromRole="ItemPosting" ToRole="Accounts" />
+    <NavigationProperty Name="Accounts2" Relationship="Self.FK_ItemPosting_Accounts2" FromRole="ItemPosting" ToRole="Accounts" />
+    <NavigationProperty Name="Accounts3" Relationship="Self.FK_ItemPosting_Accounts3" FromRole="ItemPosting" ToRole="Accounts" />
+    <NavigationProperty Name="Accounts4" Relationship="Self.FK_ItemPosting_Accounts4" FromRole="ItemPosting" ToRole="Accounts" />
+    <NavigationProperty Name="Accounts5" Relationship="Self.FK_ItemPosting_Accounts5" FromRole="ItemPosting" ToRole="Accounts" />
+    <NavigationProperty Name="Accounts6" Relationship="Self.FK_ItemPosting_Accounts6" FromRole="ItemPosting" ToRole="Accounts" />
+    <NavigationProperty Name="Accounts7" Relationship="Self.FK_ItemPosting_Accounts7" FromRole="ItemPosting" ToRole="Accounts" />
+    <NavigationProperty Name="Accounts8" Relationship="Self.FK_ItemPosting_Accounts8" FromRole="ItemPosting" ToRole="Accounts" />
+    <NavigationProperty Name="ProductGroup" Relationship="Self.FK_ItemPosting_ProductGroup" FromRole="ItemPosting" ToRole="ProductGroup" />
+  </EntityType>
+  <EntityType Name="Job">
+    <Key>
+      <PropertyRef Name="Job_Code" />
+    </Key>
+    <Property Name="Job_Code" Type="Int32" Nullable="false" />
+    <Property Name="Job_Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Notes" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_Employee_Job" FromRole="Job" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="JournalNames">
+    <Key>
+      <PropertyRef Name="JournalCode" />
+    </Key>
+    <Property Name="JournalCode" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="JournalName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TransactionHeader" Relationship="Self.FK_TransactionHeader_JournalNames" FromRole="JournalNames" ToRole="TransactionHeader" />
+  </EntityType>
+  <EntityType Name="Lic">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Lic1" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MaritalStatus">
+    <Key>
+      <PropertyRef Name="MaritalStatusCode" />
+    </Key>
+    <Property Name="MaritalStatusCode" Type="Int32" Nullable="false" />
+    <Property Name="MaritalStatusName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_Employee_MaritalStatus" FromRole="MaritalStatus" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="OfferedProducts">
+    <Key>
+      <PropertyRef Name="LineCode" />
+    </Key>
+    <Property Name="LineCode" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OfferCode" Type="Int32" />
+    <Property Name="ProductCode" Type="Int32" />
+    <Property Name="Qty" Type="Decimal" Precision="18" Scale="2" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_OfferedProducts_Product" FromRole="OfferedProducts" ToRole="Product" />
+    <NavigationProperty Name="ProductOffers" Relationship="Self.FK_OfferedProducts_ProductOffers" FromRole="OfferedProducts" ToRole="ProductOffers" />
+  </EntityType>
+  <EntityType Name="Organization">
+    <Key>
+      <PropertyRef Name="OrganizationCode" />
+    </Key>
+    <Property Name="OrganizationCode" Type="Int32" Nullable="false" />
+    <Property Name="OrganizationName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="City_Code" Type="Int32" />
+    <Property Name="Logo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Phone" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="Mobile" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="Fax" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="Website" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="EMail" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="City" Relationship="Self.FK_Organization_City" FromRole="Organization" ToRole="City" />
+  </EntityType>
+  <EntityType Name="Permission">
+    <Key>
+      <PropertyRef Name="Permission_Code" />
+    </Key>
+    <Property Name="Permission_Code" Type="Int32" Nullable="false" />
+    <Property Name="Permission_Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="PermissionsInScreen" Relationship="Self.FK_PermissionsInScreen_Permission" FromRole="Permission" ToRole="PermissionsInScreen" />
+    <NavigationProperty Name="UserRoles" Relationship="Self.FK_UserRoles_Permission" FromRole="Permission" ToRole="UserRoles" />
+  </EntityType>
+  <EntityType Name="PermissionsInScreen">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Screen_Code" Type="Int32" />
+    <Property Name="Permission_Code" Type="Int32" />
+    <NavigationProperty Name="Permission" Relationship="Self.FK_PermissionsInScreen_Permission" FromRole="PermissionsInScreen" ToRole="Permission" />
+    <NavigationProperty Name="Screen" Relationship="Self.FK_PermissionsInScreen_Screen" FromRole="PermissionsInScreen" ToRole="Screen" />
+  </EntityType>
+  <EntityType Name="PostedTransactions">
+    <Key>
+      <PropertyRef Name="LinCode" />
+    </Key>
+    <Property Name="LinCode" Type="Int64" Nullable="false" />
+    <Property Name="transCode" Type="Int64" />
+    <Property Name="PostedDate" Type="DateTime" Precision="0" />
+    <Property Name="PostedTime" Type="Time" Precision="0" />
+    <Property Name="UserCode" Type="Int32" />
+    <Property Name="accCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DebitAmount" Type="Decimal" Precision="30" Scale="2" />
+    <Property Name="CreditAmount" Type="Decimal" Precision="30" Scale="2" />
+    <NavigationProperty Name="TransactionHeader" Relationship="Self.FK_PostedTransactions_TransactionHeader" FromRole="PostedTransactions" ToRole="TransactionHeader" />
+    <NavigationProperty Name="User" Relationship="Self.FK_PostedTransactions_User" FromRole="PostedTransactions" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Product_Code" />
+    </Key>
+    <Property Name="Product_Code" Type="Int32" Nullable="false" />
+    <Property Name="Product_Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ProductDesc" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SearchName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Product_Image" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Product_Barcode" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="DefPurchaseWH" Type="Int32" />
+    <Property Name="DefSalesWH" Type="Int32" />
+    <Property Name="DefInventoryUnit" Type="Int32" />
+    <Property Name="DefPurchaseUnit" Type="Int32" />
+    <Property Name="DefSalesUnit" Type="Int32" />
+    <Property Name="DefSalesPrice" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="DefPurchasePrice" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="ProductType" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="GroupCode" Type="Int32" />
+    <NavigationProperty Name="Expired_Date" Relationship="Self.FK_Expired_Date_Product" FromRole="Product" ToRole="Expired_Date" />
+    <NavigationProperty Name="OfferedProducts" Relationship="Self.FK_OfferedProducts_Product" FromRole="Product" ToRole="OfferedProducts" />
+    <NavigationProperty Name="Unit" Relationship="Self.DefInventoryUnit" FromRole="Product" ToRole="Unit" />
+    <NavigationProperty Name="Unit1" Relationship="Self.DefualtPurchaseUnit" FromRole="Product" ToRole="Unit" />
+    <NavigationProperty Name="WareHouse" Relationship="Self.DefualtPurchaseWareHouse" FromRole="Product" ToRole="WareHouse" />
+    <NavigationProperty Name="Unit2" Relationship="Self.DefualtSalesUnit" FromRole="Product" ToRole="Unit" />
+    <NavigationProperty Name="WareHouse1" Relationship="Self.DefualtSalesWareHouse" FromRole="Product" ToRole="WareHouse" />
+    <NavigationProperty Name="ProductGroup" Relationship="Self.FK_Product_ProductGroup" FromRole="Product" ToRole="ProductGroup" />
+    <NavigationProperty Name="ProductOnHand" Relationship="Self.FK_ProductOnHand_Product" FromRole="Product" ToRole="ProductOnHand" />
+    <NavigationProperty Name="PurchaseDetails" Relationship="Self.FK_PurchaseDetails_Product" FromRole="Product" ToRole="PurchaseDetails" />
+    <NavigationProperty Name="SalesDetails" Relationship="Self.FK_SalesDetails_Product" FromRole="Product" ToRole="SalesDetails" />
+    <NavigationProperty Name="UOMConversions" Relationship="Self.FK_UOMConversions_Product" FromRole="Product" ToRole="UOMConversions" />
+    <NavigationProperty Name="BOMIngredientsProducts" Relationship="OK_DBModel.FK_BOMIngredientsProducts_Product" FromRole="Product" ToRole="BOMIngredientsProducts" />
+    <NavigationProperty Name="BOMOutputProduct" Relationship="OK_DBModel.FK_BOMOutputProduct_Product" FromRole="Product" ToRole="BOMOutputProduct" />
+  </EntityType>
+  <EntityType Name="ProductGroup">
+    <Key>
+      <PropertyRef Name="GroupCode" />
+    </Key>
+    <Property Name="GroupCode" Type="Int32" Nullable="false" />
+    <Property Name="GroupName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ItemPosting" Relationship="Self.FK_ItemPosting_ProductGroup" FromRole="ProductGroup" ToRole="ItemPosting" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_Product_ProductGroup" FromRole="ProductGroup" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="ProductOffers">
+    <Key>
+      <PropertyRef Name="OfferCode" />
+    </Key>
+    <Property Name="OfferCode" Type="Int32" Nullable="false" />
+    <Property Name="OfferPrice" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="StartDate" Type="DateTime" Precision="0" />
+    <Property Name="EndDate" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="OfferedProducts" Relationship="Self.FK_OfferedProducts_ProductOffers" FromRole="ProductOffers" ToRole="OfferedProducts" />
+  </EntityType>
+  <EntityType Name="ProductOnHand">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Product_Code" Type="Int32" />
+    <Property Name="WHCode" Type="Int32" />
+    <Property Name="Qty" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Unit_Code" Type="Int32" />
+    <Property Name="LastPurchasePrice" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="NewPurchasePrice" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="AvgCost" Type="Decimal" Precision="18" Scale="2" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_ProductOnHand_Product" FromRole="ProductOnHand" ToRole="Product" />
+    <NavigationProperty Name="Unit" Relationship="Self.FK_ProductOnHand_Unit" FromRole="ProductOnHand" ToRole="Unit" />
+    <NavigationProperty Name="WareHouse" Relationship="Self.FK_ProductOnHand_WareHouse" FromRole="ProductOnHand" ToRole="WareHouse" />
+  </EntityType>
+  <EntityType Name="PurchaseDetails">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Purchase_Code" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Product_Code" Type="Int32" />
+    <Property Name="Unit_Code" Type="Int32" />
+    <Property Name="Unit_Price" Type="Double" />
+    <Property Name="Qty" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Total" Type="Decimal" Precision="30" Scale="2" />
+    <Property Name="Expired_Date" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_PurchaseDetails_Product" FromRole="PurchaseDetails" ToRole="Product" />
+    <NavigationProperty Name="PurchaseHeader" Relationship="Self.FK_PurchaseDetails_PurchaseHeader" FromRole="PurchaseDetails" ToRole="PurchaseHeader" />
+  </EntityType>
+  <EntityType Name="PurchaseHeader">
+    <Key>
+      <PropertyRef Name="Purchase_Code" />
+    </Key>
+    <Property Name="Purchase_Code" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Purchase_Date" Type="DateTime" Precision="0" />
+    <Property Name="Purchase_Time" Type="Time" Precision="0" />
+    <Property Name="Purchase_Total" Type="Decimal" Precision="30" Scale="2" />
+    <Property Name="Purchase_Paied" Type="Decimal" Precision="30" Scale="2" />
+    <Property Name="Purchase_Reminder" Type="Decimal" Precision="30" Scale="2" />
+    <Property Name="Type_Code" Type="Boolean" />
+    <Property Name="Inventory_Code" Type="Int32" />
+    <Property Name="Vendor_Code" Type="Int32" />
+    <Property Name="User_Code" Type="Int32" />
+    <Property Name="PaymentSystem" Type="Boolean" />
+    <NavigationProperty Name="PurchaseDetails" Relationship="Self.FK_PurchaseDetails_PurchaseHeader" FromRole="PurchaseHeader" ToRole="PurchaseDetails" />
+    <NavigationProperty Name="User" Relationship="Self.FK_PurchaseHeader_User" FromRole="PurchaseHeader" ToRole="User" />
+    <NavigationProperty Name="Vendor" Relationship="Self.FK_PurchaseHeader_Vendor" FromRole="PurchaseHeader" ToRole="Vendor" />
+    <NavigationProperty Name="WareHouse" Relationship="Self.FK_PurchaseHeader_WareHouse" FromRole="PurchaseHeader" ToRole="WareHouse" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="Role_Code" />
+    </Key>
+    <Property Name="Role_Code" Type="Int32" Nullable="false" />
+    <Property Name="Role_Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ScreensInRole" Relationship="Self.FK_ScreensInRole_Role" FromRole="Role" ToRole="ScreensInRole" />
+    <NavigationProperty Name="UserRoles" Relationship="Self.FK_UserRoles_Role" FromRole="Role" ToRole="UserRoles" />
+  </EntityType>
+  <EntityType Name="SalesDetails">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Sales_Code" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Product_Code" Type="Int32" />
+    <Property Name="Unit_Code" Type="Int32" />
+    <Property Name="Unit_Price" Type="Double" />
+    <Property Name="Qty" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Total" Type="Decimal" Precision="30" Scale="2" />
+    <Property Name="Expired_Date" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_SalesDetails_Product" FromRole="SalesDetails" ToRole="Product" />
+    <NavigationProperty Name="SalesHeader" Relationship="Self.FK_SalesDetails_SalesHeader" FromRole="SalesDetails" ToRole="SalesHeader" />
+  </EntityType>
+  <EntityType Name="SalesHeader">
+    <Key>
+      <PropertyRef Name="Sales_Code" />
+    </Key>
+    <Property Name="Sales_Code" Type="String" MaxLength="250" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Sales_Date" Type="DateTime" Precision="0" />
+    <Property Name="Sales_Time" Type="Time" Precision="0" />
+    <Property Name="Sales_Total" Type="Decimal" Precision="30" Scale="2" />
+    <Property Name="Sales_Paied" Type="Decimal" Precision="30" Scale="2" />
+    <Property Name="Sales_Reminder" Type="Decimal" Precision="30" Scale="2" />
+    <Property Name="Type_Code" Type="Boolean" />
+    <Property Name="Inventory_Code" Type="Int32" />
+    <Property Name="Customer_Code" Type="Int32" />
+    <Property Name="User_Code" Type="Int32" />
+    <Property Name="PaymentSystem" Type="Boolean" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK_SalesHeader_Customer" FromRole="SalesHeader" ToRole="Customer" />
+    <NavigationProperty Name="SalesDetails" Relationship="Self.FK_SalesDetails_SalesHeader" FromRole="SalesHeader" ToRole="SalesDetails" />
+    <NavigationProperty Name="User" Relationship="Self.FK_SalesHeader_User" FromRole="SalesHeader" ToRole="User" />
+    <NavigationProperty Name="WareHouse" Relationship="Self.FK_SalesHeader_WareHouse" FromRole="SalesHeader" ToRole="WareHouse" />
+  </EntityType>
+  <EntityType Name="Screen">
+    <Key>
+      <PropertyRef Name="Screen_Code" />
+    </Key>
+    <Property Name="Screen_Code" Type="Int32" Nullable="false" />
+    <Property Name="Screen_Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="PermissionsInScreen" Relationship="Self.FK_PermissionsInScreen_Screen" FromRole="Screen" ToRole="PermissionsInScreen" />
+    <NavigationProperty Name="ScreensInRole" Relationship="Self.FK_ScreensInRole_Screen" FromRole="Screen" ToRole="ScreensInRole" />
+    <NavigationProperty Name="UserRoles" Relationship="Self.FK_UserRoles_Screen" FromRole="Screen" ToRole="UserRoles" />
+  </EntityType>
+  <EntityType Name="ScreensInRole">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Role_Code" Type="Int32" />
+    <Property Name="Screen_Code" Type="Int32" />
+    <NavigationProperty Name="Role" Relationship="Self.FK_ScreensInRole_Role" FromRole="ScreensInRole" ToRole="Role" />
+    <NavigationProperty Name="Screen" Relationship="Self.FK_ScreensInRole_Screen" FromRole="ScreensInRole" ToRole="Screen" />
+  </EntityType>
+  <EntityType Name="Site">
+    <Key>
+      <PropertyRef Name="Site_Code" />
+    </Key>
+    <Property Name="Site_Code" Type="Int32" Nullable="false" />
+    <Property Name="Site_Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="City_Code" Type="Int32" />
+    <Property Name="Site_Type" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Notes" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="City" Relationship="Self.FK_Branch_City" FromRole="Site" ToRole="City" />
+    <NavigationProperty Name="WareHouse" Relationship="Self.FK_Inventory_Branch" FromRole="Site" ToRole="WareHouse" />
+  </EntityType>
+  <EntityType Name="StructureDeminsions">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StructureCode" Type="Int32" />
+    <Property Name="FinCatCode" Type="Int32" />
+    <Property Name="AccCode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Accounts" Relationship="Self.FK_StrucrureDeminsions_Accounts" FromRole="StructureDeminsions" ToRole="Accounts" />
+    <NavigationProperty Name="AccountStructure" Relationship="Self.FK_StrucrureDeminsions_AccountStructure" FromRole="StructureDeminsions" ToRole="AccountStructure" />
+    <NavigationProperty Name="FinancialCategory" Relationship="Self.FK_StrucrureDeminsions_FinancialCategory" FromRole="StructureDeminsions" ToRole="FinancialCategory" />
+  </EntityType>
+  <EntityType Name="TransactionHeader">
+    <Key>
+      <PropertyRef Name="transCode" />
+    </Key>
+    <Property Name="transCode" Type="Int64" Nullable="false" />
+    <Property Name="transDate" Type="DateTime" Precision="0" />
+    <Property Name="JournalCode" Type="Int32" />
+    <Property Name="Discription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UserCode" Type="Int32" />
+    <Property Name="IsPosted" Type="Boolean" />
+    <NavigationProperty Name="JournalNames" Relationship="Self.FK_TransactionHeader_JournalNames" FromRole="TransactionHeader" ToRole="JournalNames" />
+    <NavigationProperty Name="PostedTransactions" Relationship="Self.FK_PostedTransactions_TransactionHeader" FromRole="TransactionHeader" ToRole="PostedTransactions" />
+    <NavigationProperty Name="User" Relationship="Self.FK_TransactionHeader_User" FromRole="TransactionHeader" ToRole="User" />
+    <NavigationProperty Name="TransactionLines" Relationship="Self.FK_TransactionLines_TransactionHeader" FromRole="TransactionHeader" ToRole="TransactionLines" />
+  </EntityType>
+  <EntityType Name="TransactionLines">
+    <Key>
+      <PropertyRef Name="LineCode" />
+    </Key>
+    <Property Name="LineCode" Type="Int64" Nullable="false" />
+    <Property Name="transCode" Type="Int64" />
+    <Property Name="LineDate" Type="DateTime" Precision="0" />
+    <Property Name="MainType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="accCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DebitAmount" Type="Decimal" Precision="30" Scale="2" />
+    <Property Name="CreditAmount" Type="Decimal" Precision="30" Scale="2" />
+    <Property Name="Discription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="offsetMainType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="offsetAccCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TransactionHeader" Relationship="Self.FK_TransactionLines_TransactionHeader" FromRole="TransactionLines" ToRole="TransactionHeader" />
+  </EntityType>
+  <EntityType Name="Unit">
+    <Key>
+      <PropertyRef Name="Unit_Code" />
+    </Key>
+    <Property Name="Unit_Code" Type="Int32" Nullable="false" />
+    <Property Name="Unit_Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CatCode" Type="Int32" />
+    <NavigationProperty Name="Product" Relationship="Self.DefInventoryUnit" FromRole="Unit" ToRole="Product" />
+    <NavigationProperty Name="Product1" Relationship="Self.DefualtPurchaseUnit" FromRole="Unit" ToRole="Product" />
+    <NavigationProperty Name="Product2" Relationship="Self.DefualtSalesUnit" FromRole="Unit" ToRole="Product" />
+    <NavigationProperty Name="ProductOnHand" Relationship="Self.FK_ProductOnHand_Unit" FromRole="Unit" ToRole="ProductOnHand" />
+    <NavigationProperty Name="UOMCCategory" Relationship="Self.FK_Unit_UOMCCategory" FromRole="Unit" ToRole="UOMCCategory" />
+    <NavigationProperty Name="UOMConversions" Relationship="Self.UnitFrom" FromRole="Unit" ToRole="UOMConversions" />
+    <NavigationProperty Name="UOMConversions1" Relationship="Self.UnitTo" FromRole="Unit" ToRole="UOMConversions" />
+  </EntityType>
+  <EntityType Name="UOMCCategory">
+    <Key>
+      <PropertyRef Name="CatCode" />
+    </Key>
+    <Property Name="CatCode" Type="Int32" Nullable="false" />
+    <Property Name="CatName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Unit" Relationship="Self.FK_Unit_UOMCCategory" FromRole="UOMCCategory" ToRole="Unit" />
+  </EntityType>
+  <EntityType Name="UOMConversions">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Unit_Code_From" Type="Int32" />
+    <Property Name="Unit_Code_To" Type="Int32" />
+    <Property Name="ProductCode" Type="Int32" />
+    <Property Name="Factor" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="IsSpecial" Type="Boolean" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_UOMConversions_Product" FromRole="UOMConversions" ToRole="Product" />
+    <NavigationProperty Name="Unit" Relationship="Self.UnitFrom" FromRole="UOMConversions" ToRole="Unit" />
+    <NavigationProperty Name="Unit1" Relationship="Self.UnitTo" FromRole="UOMConversions" ToRole="Unit" />
+  </EntityType>
+  <EntityType Name="UOMCType">
+    <Key>
+      <PropertyRef Name="TypeCode" />
+    </Key>
+    <Property Name="TypeCode" Type="Int32" Nullable="false" />
+    <Property Name="TypeName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="User_Code" />
+    </Key>
+    <Property Name="User_Code" Type="Int32" Nullable="false" />
+    <Property Name="User_Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Employee_Code" Type="Int32" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_User_Employee" FromRole="User" ToRole="Employee" />
+    <NavigationProperty Name="PostedTransactions" Relationship="Self.FK_PostedTransactions_User" FromRole="User" ToRole="PostedTransactions" />
+    <NavigationProperty Name="PurchaseHeader" Relationship="Self.FK_PurchaseHeader_User" FromRole="User" ToRole="PurchaseHeader" />
+    <NavigationProperty Name="SalesHeader" Relationship="Self.FK_SalesHeader_User" FromRole="User" ToRole="SalesHeader" />
+    <NavigationProperty Name="TransactionHeader" Relationship="Self.FK_TransactionHeader_User" FromRole="User" ToRole="TransactionHeader" />
+    <NavigationProperty Name="UserRoles" Relationship="Self.FK_UserRoles_User" FromRole="User" ToRole="UserRoles" />
+    <NavigationProperty Name="BOMHeader" Relationship="OK_DBModel.FK_BOMHeader_User" FromRole="User" ToRole="BOMHeader" />
+  </EntityType>
+  <EntityType Name="UserRoles">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="User_Code" Type="Int32" />
+    <Property Name="Role_Code" Type="Int32" />
+    <Property Name="Screen_Code" Type="Int32" />
+    <Property Name="Permission_Code" Type="Int32" />
+    <NavigationProperty Name="Permission" Relationship="Self.FK_UserRoles_Permission" FromRole="UserRoles" ToRole="Permission" />
+    <NavigationProperty Name="Role" Relationship="Self.FK_UserRoles_Role" FromRole="UserRoles" ToRole="Role" />
+    <NavigationProperty Name="Screen" Relationship="Self.FK_UserRoles_Screen" FromRole="UserRoles" ToRole="Screen" />
+    <NavigationProperty Name="User" Relationship="Self.FK_UserRoles_User" FromRole="UserRoles" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Vendor">
+    <Key>
+      <PropertyRef Name="Vendor_Code" />
+    </Key>
+    <Property Name="Vendor_Code" Type="Int32" Nullable="false" />
+    <Property Name="Vendor_Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="City_Code" Type="Int32" />
+    <Property Name="Mobile1" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Mobile2" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="EMail" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Notes" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="GroupCode" Type="Int32" />
+    <NavigationProperty Name="City" Relationship="Self.FK_Vendor_City" FromRole="Vendor" ToRole="City" />
+    <NavigationProperty Name="PurchaseHeader" Relationship="Self.FK_PurchaseHeader_Vendor" FromRole="Vendor" ToRole="PurchaseHeader" />
+    <NavigationProperty Name="VendorGroup" Relationship="Self.FK_Vendor_VendorGroup" FromRole="Vendor" ToRole="VendorGroup" />
+  </EntityType>
+  <EntityType Name="VendorGroup">
+    <Key>
+      <PropertyRef Name="GroupCode" />
+    </Key>
+    <Property Name="GroupCode" Type="Int32" Nullable="false" />
+    <Property Name="GroupName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Vendor" Relationship="Self.FK_Vendor_VendorGroup" FromRole="VendorGroup" ToRole="Vendor" />
+    <NavigationProperty Name="VendorPosting" Relationship="Self.FK_VendorPosting_VendorGroup" FromRole="VendorGroup" ToRole="VendorPosting" />
+  </EntityType>
+  <EntityType Name="VendorPosting">
+    <Key>
+      <PropertyRef Name="VendorGroupCode" />
+    </Key>
+    <Property Name="VendorGroupCode" Type="Int32" Nullable="false" />
+    <Property Name="VendorAccount" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CashAccount" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Accounts" Relationship="Self.FK_VendorPosting_Accounts" FromRole="VendorPosting" ToRole="Accounts" />
+    <NavigationProperty Name="Accounts1" Relationship="Self.FK_VendorPosting_Accounts1" FromRole="VendorPosting" ToRole="Accounts" />
+    <NavigationProperty Name="VendorGroup" Relationship="Self.FK_VendorPosting_VendorGroup" FromRole="VendorPosting" ToRole="VendorGroup" />
+  </EntityType>
+  <EntityType Name="WareHouse">
+    <Key>
+      <PropertyRef Name="WareHouse_Code" />
+    </Key>
+    <Property Name="WareHouse_Code" Type="Int32" Nullable="false" />
+    <Property Name="WareHouse_Name" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Site_Code" Type="Int32" />
+    <Property Name="WareHouse_Type" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="ManagerCode" Type="Int32" />
+    <Property Name="Notes" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_WareHouse_Employee" FromRole="WareHouse" ToRole="Employee" />
+    <NavigationProperty Name="Expired_Date" Relationship="Self.FK_Expired_Date_Inventory" FromRole="WareHouse" ToRole="Expired_Date" />
+    <NavigationProperty Name="Product" Relationship="Self.DefualtPurchaseWareHouse" FromRole="WareHouse" ToRole="Product" />
+    <NavigationProperty Name="Product1" Relationship="Self.DefualtSalesWareHouse" FromRole="WareHouse" ToRole="Product" />
+    <NavigationProperty Name="ProductOnHand" Relationship="Self.FK_ProductOnHand_WareHouse" FromRole="WareHouse" ToRole="ProductOnHand" />
+    <NavigationProperty Name="PurchaseHeader" Relationship="Self.FK_PurchaseHeader_WareHouse" FromRole="WareHouse" ToRole="PurchaseHeader" />
+    <NavigationProperty Name="SalesHeader" Relationship="Self.FK_SalesHeader_WareHouse" FromRole="WareHouse" ToRole="SalesHeader" />
+    <NavigationProperty Name="Site" Relationship="Self.FK_Inventory_Branch" FromRole="WareHouse" ToRole="Site" />
+    <NavigationProperty Name="BOMIngredientsProducts" Relationship="OK_DBModel.FK_BOMIngredientsProducts_WareHouse" FromRole="WareHouse" ToRole="BOMIngredientsProducts" />
+    <NavigationProperty Name="BOMOutputProduct" Relationship="OK_DBModel.FK_BOMOutputProduct_WareHouse" FromRole="WareHouse" ToRole="BOMOutputProduct" />
+  </EntityType>
+  <Association Name="FK_AccountBalance_Accounts">
+    <End Role="Accounts" Type="Self.Accounts" Multiplicity="1" />
+    <End Role="AccountBalance" Type="Self.AccountBalance" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Accounts">
+        <PropertyRef Name="accCode" />
+      </Principal>
+      <Dependent Role="AccountBalance">
+        <PropertyRef Name="accCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Accounts_AccountType">
+    <End Role="AccountType" Type="Self.AccountType" Multiplicity="0..1" />
+    <End Role="Accounts" Type="Self.Accounts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccountType">
+        <PropertyRef Name="typeCode" />
+      </Principal>
+      <Dependent Role="Accounts">
+        <PropertyRef Name="typeCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CustomerPosting_Accounts">
+    <End Role="Accounts" Type="Self.Accounts" Multiplicity="0..1" />
+    <End Role="CustomerPosting" Type="Self.CustomerPosting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Accounts">
+        <PropertyRef Name="accCode" />
+      </Principal>
+      <Dependent Role="CustomerPosting">
+        <PropertyRef Name="CustomerAccount" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CustomerPosting_Accounts1">
+    <End Role="Accounts" Type="Self.Accounts" Multiplicity="0..1" />
+    <End Role="CustomerPosting" Type="Self.CustomerPosting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Accounts">
+        <PropertyRef Name="accCode" />
+      </Principal>
+      <Dependent Role="CustomerPosting">
+        <PropertyRef Name="CashAccount" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ItemPosting_Accounts">
+    <End Role="Accounts" Type="Self.Accounts" Multiplicity="0..1" />
+    <End Role="ItemPosting" Type="Self.ItemPosting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Accounts">
+        <PropertyRef Name="accCode" />
+      </Principal>
+      <Dependent Role="ItemPosting">
+        <PropertyRef Name="IssueAccount" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ItemPosting_Accounts1">
+    <End Role="Accounts" Type="Self.Accounts" Multiplicity="0..1" />
+    <End Role="ItemPosting" Type="Self.ItemPosting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Accounts">
+        <PropertyRef Name="accCode" />
+      </Principal>
+      <Dependent Role="ItemPosting">
+        <PropertyRef Name="ConsumptionAccount" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ItemPosting_Accounts2">
+    <End Role="Accounts" Type="Self.Accounts" Multiplicity="0..1" />
+    <End Role="ItemPosting" Type="Self.ItemPosting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Accounts">
+        <PropertyRef Name="accCode" />
+      </Principal>
+      <Dependent Role="ItemPosting">
+        <PropertyRef Name="RevenueAccount" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ItemPosting_Accounts3">
+    <End Role="Accounts" Type="Self.Accounts" Multiplicity="0..1" />
+    <End Role="ItemPosting" Type="Self.ItemPosting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Accounts">
+        <PropertyRef Name="accCode" />
+      </Principal>
+      <Dependent Role="ItemPosting">
+        <PropertyRef Name="SalesDiscountAccount" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ItemPosting_Accounts4">
+    <End Role="Accounts" Type="Self.Accounts" Multiplicity="0..1" />
+    <End Role="ItemPosting" Type="Self.ItemPosting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Accounts">
+        <PropertyRef Name="accCode" />
+      </Principal>
+      <Dependent Role="ItemPosting">
+        <PropertyRef Name="SalesTaxesAccount" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ItemPosting_Accounts5">
+    <End Role="Accounts" Type="Self.Accounts" Multiplicity="0..1" />
+    <End Role="ItemPosting" Type="Self.ItemPosting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Accounts">
+        <PropertyRef Name="accCode" />
+      </Principal>
+      <Dependent Role="ItemPosting">
+        <PropertyRef Name="ProductRecieptAccount" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ItemPosting_Accounts6">
+    <End Role="Accounts" Type="Self.Accounts" Multiplicity="0..1" />
+    <End Role="ItemPosting" Type="Self.ItemPosting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Accounts">
+        <PropertyRef Name="accCode" />
+      </Principal>
+      <Dependent Role="ItemPosting">
+        <PropertyRef Name="PurchaseAccrualAccount" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ItemPosting_Accounts7">
+    <End Role="Accounts" Type="Self.Accounts" Multiplicity="0..1" />
+    <End Role="ItemPosting" Type="Self.ItemPosting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Accounts">
+        <PropertyRef Name="accCode" />
+      </Principal>
+      <Dependent Role="ItemPosting">
+        <PropertyRef Name="PurchaseDiscountAccount" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ItemPosting_Accounts8">
+    <End Role="Accounts" Type="Self.Accounts" Multiplicity="0..1" />
+    <End Role="ItemPosting" Type="Self.ItemPosting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Accounts">
+        <PropertyRef Name="accCode" />
+      </Principal>
+      <Dependent Role="ItemPosting">
+        <PropertyRef Name="PurchaseTaxesAccount" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StrucrureDeminsions_Accounts">
+    <End Role="Accounts" Type="Self.Accounts" Multiplicity="0..1" />
+    <End Role="StructureDeminsions" Type="Self.StructureDeminsions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Accounts">
+        <PropertyRef Name="accCode" />
+      </Principal>
+      <Dependent Role="StructureDeminsions">
+        <PropertyRef Name="AccCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorPosting_Accounts">
+    <End Role="Accounts" Type="Self.Accounts" Multiplicity="0..1" />
+    <End Role="VendorPosting" Type="Self.VendorPosting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Accounts">
+        <PropertyRef Name="accCode" />
+      </Principal>
+      <Dependent Role="VendorPosting">
+        <PropertyRef Name="VendorAccount" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorPosting_Accounts1">
+    <End Role="Accounts" Type="Self.Accounts" Multiplicity="0..1" />
+    <End Role="VendorPosting" Type="Self.VendorPosting" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Accounts">
+        <PropertyRef Name="accCode" />
+      </Principal>
+      <Dependent Role="VendorPosting">
+        <PropertyRef Name="CashAccount" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StrucrureDeminsions_AccountStructure">
+    <End Role="AccountStructure" Type="Self.AccountStructure" Multiplicity="0..1" />
+    <End Role="StructureDeminsions" Type="Self.StructureDeminsions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccountStructure">
+        <PropertyRef Name="StructureCode" />
+      </Principal>
+      <Dependent Role="StructureDeminsions">
+        <PropertyRef Name="StructureCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Branch_City">
+    <End Role="City" Type="Self.City" Multiplicity="0..1" />
+    <End Role="Site" Type="Self.Site" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="City_Code" />
+      </Principal>
+      <Dependent Role="Site">
+        <PropertyRef Name="City_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_City_Country1">
+    <End Role="Country" Type="Self.Country" Multiplicity="0..1" />
+    <End Role="City" Type="Self.City" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Country">
+        <PropertyRef Name="Country_Code" />
+      </Principal>
+      <Dependent Role="City">
+        <PropertyRef Name="Country_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Customer_City">
+    <End Role="City" Type="Self.City" Multiplicity="0..1" />
+    <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="City_Code" />
+      </Principal>
+      <Dependent Role="Customer">
+        <PropertyRef Name="City_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_City">
+    <End Role="City" Type="Self.City" Multiplicity="0..1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="City_Code" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="City_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Organization_City">
+    <End Role="City" Type="Self.City" Multiplicity="0..1" />
+    <End Role="Organization" Type="Self.Organization" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="City_Code" />
+      </Principal>
+      <Dependent Role="Organization">
+        <PropertyRef Name="City_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Vendor_City">
+    <End Role="City" Type="Self.City" Multiplicity="0..1" />
+    <End Role="Vendor" Type="Self.Vendor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="City_Code" />
+      </Principal>
+      <Dependent Role="Vendor">
+        <PropertyRef Name="City_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Customer_CustomerGroup">
+    <End Role="CustomerGroup" Type="Self.CustomerGroup" Multiplicity="0..1" />
+    <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CustomerGroup">
+        <PropertyRef Name="GroupCode" />
+      </Principal>
+      <Dependent Role="Customer">
+        <PropertyRef Name="GroupCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SalesHeader_Customer">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="0..1" />
+    <End Role="SalesHeader" Type="Self.SalesHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Customer_Code" />
+      </Principal>
+      <Dependent Role="SalesHeader">
+        <PropertyRef Name="Customer_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CustomerPosting_CustomerGroup">
+    <End Role="CustomerGroup" Type="Self.CustomerGroup" Multiplicity="1" />
+    <End Role="CustomerPosting" Type="Self.CustomerPosting" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="CustomerGroup">
+        <PropertyRef Name="GroupCode" />
+      </Principal>
+      <Dependent Role="CustomerPosting">
+        <PropertyRef Name="CustomerGroupCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_FinancialDeminsions">
+    <End Role="FinancialDeminsions" Type="Self.FinancialDeminsions" Multiplicity="0..1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FinancialDeminsions">
+        <PropertyRef Name="FinDemCode" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="FinDemCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Job">
+    <End Role="Job" Type="Self.Job" Multiplicity="0..1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Job">
+        <PropertyRef Name="Job_Code" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="Job_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_MaritalStatus">
+    <End Role="MaritalStatus" Type="Self.MaritalStatus" Multiplicity="0..1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MaritalStatus">
+        <PropertyRef Name="MaritalStatusCode" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="MaritalStatus_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Employee_Code" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="Employee_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_WareHouse_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="WareHouse" Type="Self.WareHouse" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Employee_Code" />
+      </Principal>
+      <Dependent Role="WareHouse">
+        <PropertyRef Name="ManagerCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Expired_Date_Inventory">
+    <End Role="WareHouse" Type="Self.WareHouse" Multiplicity="0..1" />
+    <End Role="Expired_Date" Type="Self.Expired_Date" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WareHouse">
+        <PropertyRef Name="WareHouse_Code" />
+      </Principal>
+      <Dependent Role="Expired_Date">
+        <PropertyRef Name="Inventory_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Expired_Date_Product">
+    <End Role="Product" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="Expired_Date" Type="Self.Expired_Date" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Product_Code" />
+      </Principal>
+      <Dependent Role="Expired_Date">
+        <PropertyRef Name="Product_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FinancialDeminsions_FinancialCategory">
+    <End Role="FinancialCategory" Type="Self.FinancialCategory" Multiplicity="0..1" />
+    <End Role="FinancialDeminsions" Type="Self.FinancialDeminsions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FinancialCategory">
+        <PropertyRef Name="FinCatCode" />
+      </Principal>
+      <Dependent Role="FinancialDeminsions">
+        <PropertyRef Name="FinCatCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StrucrureDeminsions_FinancialCategory">
+    <End Role="FinancialCategory" Type="Self.FinancialCategory" Multiplicity="0..1" />
+    <End Role="StructureDeminsions" Type="Self.StructureDeminsions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FinancialCategory">
+        <PropertyRef Name="FinCatCode" />
+      </Principal>
+      <Dependent Role="StructureDeminsions">
+        <PropertyRef Name="FinCatCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ItemPosting_ProductGroup">
+    <End Role="ProductGroup" Type="Self.ProductGroup" Multiplicity="1" />
+    <End Role="ItemPosting" Type="Self.ItemPosting" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="ProductGroup">
+        <PropertyRef Name="GroupCode" />
+      </Principal>
+      <Dependent Role="ItemPosting">
+        <PropertyRef Name="ProductGroupCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TransactionHeader_JournalNames">
+    <End Role="JournalNames" Type="Self.JournalNames" Multiplicity="0..1" />
+    <End Role="TransactionHeader" Type="Self.TransactionHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="JournalNames">
+        <PropertyRef Name="JournalCode" />
+      </Principal>
+      <Dependent Role="TransactionHeader">
+        <PropertyRef Name="JournalCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OfferedProducts_Product">
+    <End Role="Product" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="OfferedProducts" Type="Self.OfferedProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Product_Code" />
+      </Principal>
+      <Dependent Role="OfferedProducts">
+        <PropertyRef Name="ProductCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OfferedProducts_ProductOffers">
+    <End Role="ProductOffers" Type="Self.ProductOffers" Multiplicity="0..1" />
+    <End Role="OfferedProducts" Type="Self.OfferedProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductOffers">
+        <PropertyRef Name="OfferCode" />
+      </Principal>
+      <Dependent Role="OfferedProducts">
+        <PropertyRef Name="OfferCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PermissionsInScreen_Permission">
+    <End Role="Permission" Type="Self.Permission" Multiplicity="0..1" />
+    <End Role="PermissionsInScreen" Type="Self.PermissionsInScreen" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Permission">
+        <PropertyRef Name="Permission_Code" />
+      </Principal>
+      <Dependent Role="PermissionsInScreen">
+        <PropertyRef Name="Permission_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserRoles_Permission">
+    <End Role="Permission" Type="Self.Permission" Multiplicity="0..1" />
+    <End Role="UserRoles" Type="Self.UserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Permission">
+        <PropertyRef Name="Permission_Code" />
+      </Principal>
+      <Dependent Role="UserRoles">
+        <PropertyRef Name="Permission_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PermissionsInScreen_Screen">
+    <End Role="Screen" Type="Self.Screen" Multiplicity="0..1" />
+    <End Role="PermissionsInScreen" Type="Self.PermissionsInScreen" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Screen">
+        <PropertyRef Name="Screen_Code" />
+      </Principal>
+      <Dependent Role="PermissionsInScreen">
+        <PropertyRef Name="Screen_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PostedTransactions_TransactionHeader">
+    <End Role="TransactionHeader" Type="Self.TransactionHeader" Multiplicity="0..1" />
+    <End Role="PostedTransactions" Type="Self.PostedTransactions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TransactionHeader">
+        <PropertyRef Name="transCode" />
+      </Principal>
+      <Dependent Role="PostedTransactions">
+        <PropertyRef Name="transCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PostedTransactions_User">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="PostedTransactions" Type="Self.PostedTransactions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="User_Code" />
+      </Principal>
+      <Dependent Role="PostedTransactions">
+        <PropertyRef Name="UserCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DefInventoryUnit">
+    <End Role="Unit" Type="Self.Unit" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Unit">
+        <PropertyRef Name="Unit_Code" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="DefInventoryUnit" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DefualtPurchaseUnit">
+    <End Role="Unit" Type="Self.Unit" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Unit">
+        <PropertyRef Name="Unit_Code" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="DefPurchaseUnit" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DefualtPurchaseWareHouse">
+    <End Role="WareHouse" Type="Self.WareHouse" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WareHouse">
+        <PropertyRef Name="WareHouse_Code" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="DefPurchaseWH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DefualtSalesUnit">
+    <End Role="Unit" Type="Self.Unit" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Unit">
+        <PropertyRef Name="Unit_Code" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="DefSalesUnit" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DefualtSalesWareHouse">
+    <End Role="WareHouse" Type="Self.WareHouse" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WareHouse">
+        <PropertyRef Name="WareHouse_Code" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="DefSalesWH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Product_ProductGroup">
+    <End Role="ProductGroup" Type="Self.ProductGroup" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductGroup">
+        <PropertyRef Name="GroupCode" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="GroupCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductOnHand_Product">
+    <End Role="Product" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="ProductOnHand" Type="Self.ProductOnHand" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Product_Code" />
+      </Principal>
+      <Dependent Role="ProductOnHand">
+        <PropertyRef Name="Product_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PurchaseDetails_Product">
+    <End Role="Product" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="PurchaseDetails" Type="Self.PurchaseDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Product_Code" />
+      </Principal>
+      <Dependent Role="PurchaseDetails">
+        <PropertyRef Name="Product_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SalesDetails_Product">
+    <End Role="Product" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="SalesDetails" Type="Self.SalesDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Product_Code" />
+      </Principal>
+      <Dependent Role="SalesDetails">
+        <PropertyRef Name="Product_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UOMConversions_Product">
+    <End Role="Product" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="UOMConversions" Type="Self.UOMConversions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Product_Code" />
+      </Principal>
+      <Dependent Role="UOMConversions">
+        <PropertyRef Name="ProductCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductOnHand_Unit">
+    <End Role="Unit" Type="Self.Unit" Multiplicity="0..1" />
+    <End Role="ProductOnHand" Type="Self.ProductOnHand" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Unit">
+        <PropertyRef Name="Unit_Code" />
+      </Principal>
+      <Dependent Role="ProductOnHand">
+        <PropertyRef Name="Unit_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductOnHand_WareHouse">
+    <End Role="WareHouse" Type="Self.WareHouse" Multiplicity="0..1" />
+    <End Role="ProductOnHand" Type="Self.ProductOnHand" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WareHouse">
+        <PropertyRef Name="WareHouse_Code" />
+      </Principal>
+      <Dependent Role="ProductOnHand">
+        <PropertyRef Name="WHCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PurchaseDetails_PurchaseHeader">
+    <End Role="PurchaseHeader" Type="Self.PurchaseHeader" Multiplicity="0..1" />
+    <End Role="PurchaseDetails" Type="Self.PurchaseDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PurchaseHeader">
+        <PropertyRef Name="Purchase_Code" />
+      </Principal>
+      <Dependent Role="PurchaseDetails">
+        <PropertyRef Name="Purchase_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PurchaseHeader_User">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="PurchaseHeader" Type="Self.PurchaseHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="User_Code" />
+      </Principal>
+      <Dependent Role="PurchaseHeader">
+        <PropertyRef Name="User_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PurchaseHeader_Vendor">
+    <End Role="Vendor" Type="Self.Vendor" Multiplicity="0..1" />
+    <End Role="PurchaseHeader" Type="Self.PurchaseHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vendor">
+        <PropertyRef Name="Vendor_Code" />
+      </Principal>
+      <Dependent Role="PurchaseHeader">
+        <PropertyRef Name="Vendor_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PurchaseHeader_WareHouse">
+    <End Role="WareHouse" Type="Self.WareHouse" Multiplicity="0..1" />
+    <End Role="PurchaseHeader" Type="Self.PurchaseHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WareHouse">
+        <PropertyRef Name="WareHouse_Code" />
+      </Principal>
+      <Dependent Role="PurchaseHeader">
+        <PropertyRef Name="Inventory_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ScreensInRole_Role">
+    <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+    <End Role="ScreensInRole" Type="Self.ScreensInRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="Role_Code" />
+      </Principal>
+      <Dependent Role="ScreensInRole">
+        <PropertyRef Name="Role_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserRoles_Role">
+    <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+    <End Role="UserRoles" Type="Self.UserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="Role_Code" />
+      </Principal>
+      <Dependent Role="UserRoles">
+        <PropertyRef Name="Role_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SalesDetails_SalesHeader">
+    <End Role="SalesHeader" Type="Self.SalesHeader" Multiplicity="0..1" />
+    <End Role="SalesDetails" Type="Self.SalesDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SalesHeader">
+        <PropertyRef Name="Sales_Code" />
+      </Principal>
+      <Dependent Role="SalesDetails">
+        <PropertyRef Name="Sales_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SalesHeader_User">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="SalesHeader" Type="Self.SalesHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="User_Code" />
+      </Principal>
+      <Dependent Role="SalesHeader">
+        <PropertyRef Name="User_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SalesHeader_WareHouse">
+    <End Role="WareHouse" Type="Self.WareHouse" Multiplicity="0..1" />
+    <End Role="SalesHeader" Type="Self.SalesHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WareHouse">
+        <PropertyRef Name="WareHouse_Code" />
+      </Principal>
+      <Dependent Role="SalesHeader">
+        <PropertyRef Name="Inventory_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ScreensInRole_Screen">
+    <End Role="Screen" Type="Self.Screen" Multiplicity="0..1" />
+    <End Role="ScreensInRole" Type="Self.ScreensInRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Screen">
+        <PropertyRef Name="Screen_Code" />
+      </Principal>
+      <Dependent Role="ScreensInRole">
+        <PropertyRef Name="Screen_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserRoles_Screen">
+    <End Role="Screen" Type="Self.Screen" Multiplicity="0..1" />
+    <End Role="UserRoles" Type="Self.UserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Screen">
+        <PropertyRef Name="Screen_Code" />
+      </Principal>
+      <Dependent Role="UserRoles">
+        <PropertyRef Name="Screen_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Inventory_Branch">
+    <End Role="Site" Type="Self.Site" Multiplicity="0..1" />
+    <End Role="WareHouse" Type="Self.WareHouse" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Site">
+        <PropertyRef Name="Site_Code" />
+      </Principal>
+      <Dependent Role="WareHouse">
+        <PropertyRef Name="Site_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TransactionHeader_User">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="TransactionHeader" Type="Self.TransactionHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="User_Code" />
+      </Principal>
+      <Dependent Role="TransactionHeader">
+        <PropertyRef Name="UserCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TransactionLines_TransactionHeader">
+    <End Role="TransactionHeader" Type="Self.TransactionHeader" Multiplicity="0..1" />
+    <End Role="TransactionLines" Type="Self.TransactionLines" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TransactionHeader">
+        <PropertyRef Name="transCode" />
+      </Principal>
+      <Dependent Role="TransactionLines">
+        <PropertyRef Name="transCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Unit_UOMCCategory">
+    <End Role="UOMCCategory" Type="Self.UOMCCategory" Multiplicity="0..1" />
+    <End Role="Unit" Type="Self.Unit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UOMCCategory">
+        <PropertyRef Name="CatCode" />
+      </Principal>
+      <Dependent Role="Unit">
+        <PropertyRef Name="CatCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UnitFrom">
+    <End Role="Unit" Type="Self.Unit" Multiplicity="0..1" />
+    <End Role="UOMConversions" Type="Self.UOMConversions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Unit">
+        <PropertyRef Name="Unit_Code" />
+      </Principal>
+      <Dependent Role="UOMConversions">
+        <PropertyRef Name="Unit_Code_From" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UnitTo">
+    <End Role="Unit" Type="Self.Unit" Multiplicity="0..1" />
+    <End Role="UOMConversions" Type="Self.UOMConversions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Unit">
+        <PropertyRef Name="Unit_Code" />
+      </Principal>
+      <Dependent Role="UOMConversions">
+        <PropertyRef Name="Unit_Code_To" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserRoles_User">
+    <End Role="User" Type="Self.User" Multiplicity="0..1" />
+    <End Role="UserRoles" Type="Self.UserRoles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="User_Code" />
+      </Principal>
+      <Dependent Role="UserRoles">
+        <PropertyRef Name="User_Code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Vendor_VendorGroup">
+    <End Role="VendorGroup" Type="Self.VendorGroup" Multiplicity="0..1" />
+    <End Role="Vendor" Type="Self.Vendor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VendorGroup">
+        <PropertyRef Name="GroupCode" />
+      </Principal>
+      <Dependent Role="Vendor">
+        <PropertyRef Name="GroupCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VendorPosting_VendorGroup">
+    <End Role="VendorGroup" Type="Self.VendorGroup" Multiplicity="1" />
+    <End Role="VendorPosting" Type="Self.VendorPosting" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="VendorGroup">
+        <PropertyRef Name="GroupCode" />
+      </Principal>
+      <Dependent Role="VendorPosting">
+        <PropertyRef Name="VendorGroupCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="OK_DBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AccountBalance" EntityType="Self.AccountBalance" />
+    <EntitySet Name="Accounts" EntityType="Self.Accounts" />
+    <EntitySet Name="AccountStructure" EntityType="Self.AccountStructure" />
+    <EntitySet Name="AccountType" EntityType="Self.AccountType" />
+    <EntitySet Name="City" EntityType="Self.City" />
+    <EntitySet Name="Country" EntityType="Self.Country" />
+    <EntitySet Name="Customer" EntityType="Self.Customer" />
+    <EntitySet Name="CustomerGroup" EntityType="Self.CustomerGroup" />
+    <EntitySet Name="CustomerPosting" EntityType="Self.CustomerPosting" />
+    <EntitySet Name="Employee" EntityType="Self.Employee" />
+    <EntitySet Name="Expired_Date" EntityType="Self.Expired_Date" />
+    <EntitySet Name="FinancialCategory" EntityType="Self.FinancialCategory" />
+    <EntitySet Name="FinancialDeminsions" EntityType="Self.FinancialDeminsions" />
+    <EntitySet Name="ItemPosting" EntityType="Self.ItemPosting" />
+    <EntitySet Name="Job" EntityType="Self.Job" />
+    <EntitySet Name="JournalNames" EntityType="Self.JournalNames" />
+    <EntitySet Name="Lic" EntityType="Self.Lic" />
+    <EntitySet Name="MaritalStatus" EntityType="Self.MaritalStatus" />
+    <EntitySet Name="OfferedProducts" EntityType="Self.OfferedProducts" />
+    <EntitySet Name="Organization" EntityType="Self.Organization" />
+    <EntitySet Name="Permission" EntityType="Self.Permission" />
+    <EntitySet Name="PermissionsInScreen" EntityType="Self.PermissionsInScreen" />
+    <EntitySet Name="PostedTransactions" EntityType="Self.PostedTransactions" />
+    <EntitySet Name="Product" EntityType="Self.Product" />
+    <EntitySet Name="ProductGroup" EntityType="Self.ProductGroup" />
+    <EntitySet Name="ProductOffers" EntityType="Self.ProductOffers" />
+    <EntitySet Name="ProductOnHand" EntityType="Self.ProductOnHand" />
+    <EntitySet Name="PurchaseDetails" EntityType="Self.PurchaseDetails" />
+    <EntitySet Name="PurchaseHeader" EntityType="Self.PurchaseHeader" />
+    <EntitySet Name="Role" EntityType="Self.Role" />
+    <EntitySet Name="SalesDetails" EntityType="Self.SalesDetails" />
+    <EntitySet Name="SalesHeader" EntityType="Self.SalesHeader" />
+    <EntitySet Name="Screen" EntityType="Self.Screen" />
+    <EntitySet Name="ScreensInRole" EntityType="Self.ScreensInRole" />
+    <EntitySet Name="Site" EntityType="Self.Site" />
+    <EntitySet Name="StructureDeminsions" EntityType="Self.StructureDeminsions" />
+    <EntitySet Name="TransactionHeader" EntityType="Self.TransactionHeader" />
+    <EntitySet Name="TransactionLines" EntityType="Self.TransactionLines" />
+    <EntitySet Name="Unit" EntityType="Self.Unit" />
+    <EntitySet Name="UOMCCategory" EntityType="Self.UOMCCategory" />
+    <EntitySet Name="UOMConversions" EntityType="Self.UOMConversions" />
+    <EntitySet Name="UOMCType" EntityType="Self.UOMCType" />
+    <EntitySet Name="User" EntityType="Self.User" />
+    <EntitySet Name="UserRoles" EntityType="Self.UserRoles" />
+    <EntitySet Name="Vendor" EntityType="Self.Vendor" />
+    <EntitySet Name="VendorGroup" EntityType="Self.VendorGroup" />
+    <EntitySet Name="VendorPosting" EntityType="Self.VendorPosting" />
+    <EntitySet Name="WareHouse" EntityType="Self.WareHouse" />
+    <AssociationSet Name="FK_AccountBalance_Accounts" Association="Self.FK_AccountBalance_Accounts">
+      <End Role="Accounts" EntitySet="Accounts" />
+      <End Role="AccountBalance" EntitySet="AccountBalance" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Accounts_AccountType" Association="Self.FK_Accounts_AccountType">
+      <End Role="AccountType" EntitySet="AccountType" />
+      <End Role="Accounts" EntitySet="Accounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CustomerPosting_Accounts" Association="Self.FK_CustomerPosting_Accounts">
+      <End Role="Accounts" EntitySet="Accounts" />
+      <End Role="CustomerPosting" EntitySet="CustomerPosting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CustomerPosting_Accounts1" Association="Self.FK_CustomerPosting_Accounts1">
+      <End Role="Accounts" EntitySet="Accounts" />
+      <End Role="CustomerPosting" EntitySet="CustomerPosting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ItemPosting_Accounts" Association="Self.FK_ItemPosting_Accounts">
+      <End Role="Accounts" EntitySet="Accounts" />
+      <End Role="ItemPosting" EntitySet="ItemPosting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ItemPosting_Accounts1" Association="Self.FK_ItemPosting_Accounts1">
+      <End Role="Accounts" EntitySet="Accounts" />
+      <End Role="ItemPosting" EntitySet="ItemPosting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ItemPosting_Accounts2" Association="Self.FK_ItemPosting_Accounts2">
+      <End Role="Accounts" EntitySet="Accounts" />
+      <End Role="ItemPosting" EntitySet="ItemPosting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ItemPosting_Accounts3" Association="Self.FK_ItemPosting_Accounts3">
+      <End Role="Accounts" EntitySet="Accounts" />
+      <End Role="ItemPosting" EntitySet="ItemPosting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ItemPosting_Accounts4" Association="Self.FK_ItemPosting_Accounts4">
+      <End Role="Accounts" EntitySet="Accounts" />
+      <End Role="ItemPosting" EntitySet="ItemPosting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ItemPosting_Accounts5" Association="Self.FK_ItemPosting_Accounts5">
+      <End Role="Accounts" EntitySet="Accounts" />
+      <End Role="ItemPosting" EntitySet="ItemPosting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ItemPosting_Accounts6" Association="Self.FK_ItemPosting_Accounts6">
+      <End Role="Accounts" EntitySet="Accounts" />
+      <End Role="ItemPosting" EntitySet="ItemPosting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ItemPosting_Accounts7" Association="Self.FK_ItemPosting_Accounts7">
+      <End Role="Accounts" EntitySet="Accounts" />
+      <End Role="ItemPosting" EntitySet="ItemPosting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ItemPosting_Accounts8" Association="Self.FK_ItemPosting_Accounts8">
+      <End Role="Accounts" EntitySet="Accounts" />
+      <End Role="ItemPosting" EntitySet="ItemPosting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StrucrureDeminsions_Accounts" Association="Self.FK_StrucrureDeminsions_Accounts">
+      <End Role="Accounts" EntitySet="Accounts" />
+      <End Role="StructureDeminsions" EntitySet="StructureDeminsions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorPosting_Accounts" Association="Self.FK_VendorPosting_Accounts">
+      <End Role="Accounts" EntitySet="Accounts" />
+      <End Role="VendorPosting" EntitySet="VendorPosting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorPosting_Accounts1" Association="Self.FK_VendorPosting_Accounts1">
+      <End Role="Accounts" EntitySet="Accounts" />
+      <End Role="VendorPosting" EntitySet="VendorPosting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StrucrureDeminsions_AccountStructure" Association="Self.FK_StrucrureDeminsions_AccountStructure">
+      <End Role="AccountStructure" EntitySet="AccountStructure" />
+      <End Role="StructureDeminsions" EntitySet="StructureDeminsions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Branch_City" Association="Self.FK_Branch_City">
+      <End Role="City" EntitySet="City" />
+      <End Role="Site" EntitySet="Site" />
+    </AssociationSet>
+    <AssociationSet Name="FK_City_Country1" Association="Self.FK_City_Country1">
+      <End Role="Country" EntitySet="Country" />
+      <End Role="City" EntitySet="City" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Customer_City" Association="Self.FK_Customer_City">
+      <End Role="City" EntitySet="City" />
+      <End Role="Customer" EntitySet="Customer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_City" Association="Self.FK_Employee_City">
+      <End Role="City" EntitySet="City" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Organization_City" Association="Self.FK_Organization_City">
+      <End Role="City" EntitySet="City" />
+      <End Role="Organization" EntitySet="Organization" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Vendor_City" Association="Self.FK_Vendor_City">
+      <End Role="City" EntitySet="City" />
+      <End Role="Vendor" EntitySet="Vendor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Customer_CustomerGroup" Association="Self.FK_Customer_CustomerGroup">
+      <End Role="CustomerGroup" EntitySet="CustomerGroup" />
+      <End Role="Customer" EntitySet="Customer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SalesHeader_Customer" Association="Self.FK_SalesHeader_Customer">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="SalesHeader" EntitySet="SalesHeader" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CustomerPosting_CustomerGroup" Association="Self.FK_CustomerPosting_CustomerGroup">
+      <End Role="CustomerGroup" EntitySet="CustomerGroup" />
+      <End Role="CustomerPosting" EntitySet="CustomerPosting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_FinancialDeminsions" Association="Self.FK_Employee_FinancialDeminsions">
+      <End Role="FinancialDeminsions" EntitySet="FinancialDeminsions" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Job" Association="Self.FK_Employee_Job">
+      <End Role="Job" EntitySet="Job" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_MaritalStatus" Association="Self.FK_Employee_MaritalStatus">
+      <End Role="MaritalStatus" EntitySet="MaritalStatus" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Employee" Association="Self.FK_User_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+    <AssociationSet Name="FK_WareHouse_Employee" Association="Self.FK_WareHouse_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="WareHouse" EntitySet="WareHouse" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Expired_Date_Inventory" Association="Self.FK_Expired_Date_Inventory">
+      <End Role="WareHouse" EntitySet="WareHouse" />
+      <End Role="Expired_Date" EntitySet="Expired_Date" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Expired_Date_Product" Association="Self.FK_Expired_Date_Product">
+      <End Role="Product" EntitySet="Product" />
+      <End Role="Expired_Date" EntitySet="Expired_Date" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FinancialDeminsions_FinancialCategory" Association="Self.FK_FinancialDeminsions_FinancialCategory">
+      <End Role="FinancialCategory" EntitySet="FinancialCategory" />
+      <End Role="FinancialDeminsions" EntitySet="FinancialDeminsions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StrucrureDeminsions_FinancialCategory" Association="Self.FK_StrucrureDeminsions_FinancialCategory">
+      <End Role="FinancialCategory" EntitySet="FinancialCategory" />
+      <End Role="StructureDeminsions" EntitySet="StructureDeminsions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ItemPosting_ProductGroup" Association="Self.FK_ItemPosting_ProductGroup">
+      <End Role="ProductGroup" EntitySet="ProductGroup" />
+      <End Role="ItemPosting" EntitySet="ItemPosting" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TransactionHeader_JournalNames" Association="Self.FK_TransactionHeader_JournalNames">
+      <End Role="JournalNames" EntitySet="JournalNames" />
+      <End Role="TransactionHeader" EntitySet="TransactionHeader" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OfferedProducts_Product" Association="Self.FK_OfferedProducts_Product">
+      <End Role="Product" EntitySet="Product" />
+      <End Role="OfferedProducts" EntitySet="OfferedProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OfferedProducts_ProductOffers" Association="Self.FK_OfferedProducts_ProductOffers">
+      <End Role="ProductOffers" EntitySet="ProductOffers" />
+      <End Role="OfferedProducts" EntitySet="OfferedProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PermissionsInScreen_Permission" Association="Self.FK_PermissionsInScreen_Permission">
+      <End Role="Permission" EntitySet="Permission" />
+      <End Role="PermissionsInScreen" EntitySet="PermissionsInScreen" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserRoles_Permission" Association="Self.FK_UserRoles_Permission">
+      <End Role="Permission" EntitySet="Permission" />
+      <End Role="UserRoles" EntitySet="UserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PermissionsInScreen_Screen" Association="Self.FK_PermissionsInScreen_Screen">
+      <End Role="Screen" EntitySet="Screen" />
+      <End Role="PermissionsInScreen" EntitySet="PermissionsInScreen" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PostedTransactions_TransactionHeader" Association="Self.FK_PostedTransactions_TransactionHeader">
+      <End Role="TransactionHeader" EntitySet="TransactionHeader" />
+      <End Role="PostedTransactions" EntitySet="PostedTransactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PostedTransactions_User" Association="Self.FK_PostedTransactions_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="PostedTransactions" EntitySet="PostedTransactions" />
+    </AssociationSet>
+    <AssociationSet Name="DefInventoryUnit" Association="Self.DefInventoryUnit">
+      <End Role="Unit" EntitySet="Unit" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="DefualtPurchaseUnit" Association="Self.DefualtPurchaseUnit">
+      <End Role="Unit" EntitySet="Unit" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="DefualtPurchaseWareHouse" Association="Self.DefualtPurchaseWareHouse">
+      <End Role="WareHouse" EntitySet="WareHouse" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="DefualtSalesUnit" Association="Self.DefualtSalesUnit">
+      <End Role="Unit" EntitySet="Unit" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="DefualtSalesWareHouse" Association="Self.DefualtSalesWareHouse">
+      <End Role="WareHouse" EntitySet="WareHouse" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Product_ProductGroup" Association="Self.FK_Product_ProductGroup">
+      <End Role="ProductGroup" EntitySet="ProductGroup" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductOnHand_Product" Association="Self.FK_ProductOnHand_Product">
+      <End Role="Product" EntitySet="Product" />
+      <End Role="ProductOnHand" EntitySet="ProductOnHand" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PurchaseDetails_Product" Association="Self.FK_PurchaseDetails_Product">
+      <End Role="Product" EntitySet="Product" />
+      <End Role="PurchaseDetails" EntitySet="PurchaseDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SalesDetails_Product" Association="Self.FK_SalesDetails_Product">
+      <End Role="Product" EntitySet="Product" />
+      <End Role="SalesDetails" EntitySet="SalesDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UOMConversions_Product" Association="Self.FK_UOMConversions_Product">
+      <End Role="Product" EntitySet="Product" />
+      <End Role="UOMConversions" EntitySet="UOMConversions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductOnHand_Unit" Association="Self.FK_ProductOnHand_Unit">
+      <End Role="Unit" EntitySet="Unit" />
+      <End Role="ProductOnHand" EntitySet="ProductOnHand" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductOnHand_WareHouse" Association="Self.FK_ProductOnHand_WareHouse">
+      <End Role="WareHouse" EntitySet="WareHouse" />
+      <End Role="ProductOnHand" EntitySet="ProductOnHand" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PurchaseDetails_PurchaseHeader" Association="Self.FK_PurchaseDetails_PurchaseHeader">
+      <End Role="PurchaseHeader" EntitySet="PurchaseHeader" />
+      <End Role="PurchaseDetails" EntitySet="PurchaseDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PurchaseHeader_User" Association="Self.FK_PurchaseHeader_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="PurchaseHeader" EntitySet="PurchaseHeader" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PurchaseHeader_Vendor" Association="Self.FK_PurchaseHeader_Vendor">
+      <End Role="Vendor" EntitySet="Vendor" />
+      <End Role="PurchaseHeader" EntitySet="PurchaseHeader" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PurchaseHeader_WareHouse" Association="Self.FK_PurchaseHeader_WareHouse">
+      <End Role="WareHouse" EntitySet="WareHouse" />
+      <End Role="PurchaseHeader" EntitySet="PurchaseHeader" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ScreensInRole_Role" Association="Self.FK_ScreensInRole_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="ScreensInRole" EntitySet="ScreensInRole" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserRoles_Role" Association="Self.FK_UserRoles_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="UserRoles" EntitySet="UserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SalesDetails_SalesHeader" Association="Self.FK_SalesDetails_SalesHeader">
+      <End Role="SalesHeader" EntitySet="SalesHeader" />
+      <End Role="SalesDetails" EntitySet="SalesDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SalesHeader_User" Association="Self.FK_SalesHeader_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="SalesHeader" EntitySet="SalesHeader" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SalesHeader_WareHouse" Association="Self.FK_SalesHeader_WareHouse">
+      <End Role="WareHouse" EntitySet="WareHouse" />
+      <End Role="SalesHeader" EntitySet="SalesHeader" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ScreensInRole_Screen" Association="Self.FK_ScreensInRole_Screen">
+      <End Role="Screen" EntitySet="Screen" />
+      <End Role="ScreensInRole" EntitySet="ScreensInRole" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserRoles_Screen" Association="Self.FK_UserRoles_Screen">
+      <End Role="Screen" EntitySet="Screen" />
+      <End Role="UserRoles" EntitySet="UserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Inventory_Branch" Association="Self.FK_Inventory_Branch">
+      <End Role="Site" EntitySet="Site" />
+      <End Role="WareHouse" EntitySet="WareHouse" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TransactionHeader_User" Association="Self.FK_TransactionHeader_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="TransactionHeader" EntitySet="TransactionHeader" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TransactionLines_TransactionHeader" Association="Self.FK_TransactionLines_TransactionHeader">
+      <End Role="TransactionHeader" EntitySet="TransactionHeader" />
+      <End Role="TransactionLines" EntitySet="TransactionLines" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Unit_UOMCCategory" Association="Self.FK_Unit_UOMCCategory">
+      <End Role="UOMCCategory" EntitySet="UOMCCategory" />
+      <End Role="Unit" EntitySet="Unit" />
+    </AssociationSet>
+    <AssociationSet Name="UnitFrom" Association="Self.UnitFrom">
+      <End Role="Unit" EntitySet="Unit" />
+      <End Role="UOMConversions" EntitySet="UOMConversions" />
+    </AssociationSet>
+    <AssociationSet Name="UnitTo" Association="Self.UnitTo">
+      <End Role="Unit" EntitySet="Unit" />
+      <End Role="UOMConversions" EntitySet="UOMConversions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserRoles_User" Association="Self.FK_UserRoles_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="UserRoles" EntitySet="UserRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Vendor_VendorGroup" Association="Self.FK_Vendor_VendorGroup">
+      <End Role="VendorGroup" EntitySet="VendorGroup" />
+      <End Role="Vendor" EntitySet="Vendor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VendorPosting_VendorGroup" Association="Self.FK_VendorPosting_VendorGroup">
+      <End Role="VendorGroup" EntitySet="VendorGroup" />
+      <End Role="VendorPosting" EntitySet="VendorPosting" />
+    </AssociationSet>
+    <EntitySet Name="BOMHeader" EntityType="OK_DBModel.BOMHeader" />
+    <AssociationSet Name="FK_BOMHeader_User" Association="OK_DBModel.FK_BOMHeader_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="BOMHeader" EntitySet="BOMHeader" />
+    </AssociationSet>
+    <EntitySet Name="BOMIngredientsProducts" EntityType="OK_DBModel.BOMIngredientsProducts" />
+    <EntitySet Name="BOMOutputProduct" EntityType="OK_DBModel.BOMOutputProduct" />
+    <AssociationSet Name="FK_BOMIngredientsProducts_BOMHeader" Association="OK_DBModel.FK_BOMIngredientsProducts_BOMHeader">
+      <End Role="BOMHeader" EntitySet="BOMHeader" />
+      <End Role="BOMIngredientsProducts" EntitySet="BOMIngredientsProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOMOutputProduct_BOMHeader" Association="OK_DBModel.FK_BOMOutputProduct_BOMHeader">
+      <End Role="BOMHeader" EntitySet="BOMHeader" />
+      <End Role="BOMOutputProduct" EntitySet="BOMOutputProduct" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOMIngredientsProducts_BOMOutputProduct" Association="OK_DBModel.FK_BOMIngredientsProducts_BOMOutputProduct">
+      <End Role="BOMOutputProduct" EntitySet="BOMOutputProduct" />
+      <End Role="BOMIngredientsProducts" EntitySet="BOMIngredientsProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOMIngredientsProducts_Product" Association="OK_DBModel.FK_BOMIngredientsProducts_Product">
+      <End Role="Product" EntitySet="Product" />
+      <End Role="BOMIngredientsProducts" EntitySet="BOMIngredientsProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOMIngredientsProducts_WareHouse" Association="OK_DBModel.FK_BOMIngredientsProducts_WareHouse">
+      <End Role="WareHouse" EntitySet="WareHouse" />
+      <End Role="BOMIngredientsProducts" EntitySet="BOMIngredientsProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOMOutputProduct_Product" Association="OK_DBModel.FK_BOMOutputProduct_Product">
+      <End Role="Product" EntitySet="Product" />
+      <End Role="BOMOutputProduct" EntitySet="BOMOutputProduct" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BOMOutputProduct_WareHouse" Association="OK_DBModel.FK_BOMOutputProduct_WareHouse">
+      <End Role="WareHouse" EntitySet="WareHouse" />
+      <End Role="BOMOutputProduct" EntitySet="BOMOutputProduct" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="BOMHeader">
+    <Key>
+      <PropertyRef Name="BOMCode" />
+    </Key>
+    <Property Name="BOMCode" Type="Int64" Nullable="false" />
+    <Property Name="BOMLookUpCode" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="BOMDate" Type="DateTime" Precision="0" />
+    <Property Name="JournalCode" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UserCode" Type="Int32" />
+    <Property Name="IsPosted" Type="Boolean" />
+    <NavigationProperty Name="User" Relationship="OK_DBModel.FK_BOMHeader_User" FromRole="BOMHeader" ToRole="User" />
+    <NavigationProperty Name="BOMIngredientsProducts" Relationship="OK_DBModel.FK_BOMIngredientsProducts_BOMHeader" FromRole="BOMHeader" ToRole="BOMIngredientsProducts" />
+    <NavigationProperty Name="BOMOutputProduct" Relationship="OK_DBModel.FK_BOMOutputProduct_BOMHeader" FromRole="BOMHeader" ToRole="BOMOutputProduct" />
+  </EntityType>
+  <Association Name="FK_BOMHeader_User">
+    <End Type="OK_DBModel.User" Role="User" Multiplicity="0..1" />
+    <End Type="OK_DBModel.BOMHeader" Role="BOMHeader" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="User_Code" />
+      </Principal>
+      <Dependent Role="BOMHeader">
+        <PropertyRef Name="UserCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="BOMIngredientsProducts">
+    <Key>
+      <PropertyRef Name="IngCode" />
+    </Key>
+    <Property Name="IngCode" Type="Int64" Nullable="false" />
+    <Property Name="LookUpCode" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="OutputCode" Type="Int64" Nullable="false" />
+    <Property Name="BOMCode" Type="Int64" Nullable="false" />
+    <Property Name="ProductCode" Type="Int32" />
+    <Property Name="WHCode" Type="Int32" />
+    <Property Name="Cost" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Quantity" Type="Decimal" Precision="18" Scale="2" />
+    <NavigationProperty Name="BOMHeader" Relationship="OK_DBModel.FK_BOMIngredientsProducts_BOMHeader" FromRole="BOMIngredientsProducts" ToRole="BOMHeader" />
+    <NavigationProperty Name="BOMOutputProduct" Relationship="OK_DBModel.FK_BOMIngredientsProducts_BOMOutputProduct" FromRole="BOMIngredientsProducts" ToRole="BOMOutputProduct" />
+    <NavigationProperty Name="Product" Relationship="OK_DBModel.FK_BOMIngredientsProducts_Product" FromRole="BOMIngredientsProducts" ToRole="Product" />
+    <NavigationProperty Name="WareHouse" Relationship="OK_DBModel.FK_BOMIngredientsProducts_WareHouse" FromRole="BOMIngredientsProducts" ToRole="WareHouse" />
+  </EntityType>
+  <EntityType Name="BOMOutputProduct">
+    <Key>
+      <PropertyRef Name="OutputCode" />
+    </Key>
+    <Property Name="OutputCode" Type="Int64" Nullable="false" />
+    <Property Name="LookUpCode" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="BOMCode" Type="Int64" Nullable="false" />
+    <Property Name="ProductCode" Type="Int32" />
+    <Property Name="WHCode" Type="Int32" />
+    <Property Name="Cost" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Quantity" Type="Decimal" Precision="18" Scale="2" />
+    <NavigationProperty Name="BOMHeader" Relationship="OK_DBModel.FK_BOMOutputProduct_BOMHeader" FromRole="BOMOutputProduct" ToRole="BOMHeader" />
+    <NavigationProperty Name="BOMIngredientsProducts" Relationship="OK_DBModel.FK_BOMIngredientsProducts_BOMOutputProduct" FromRole="BOMOutputProduct" ToRole="BOMIngredientsProducts" />
+    <NavigationProperty Name="Product" Relationship="OK_DBModel.FK_BOMOutputProduct_Product" FromRole="BOMOutputProduct" ToRole="Product" />
+    <NavigationProperty Name="WareHouse" Relationship="OK_DBModel.FK_BOMOutputProduct_WareHouse" FromRole="BOMOutputProduct" ToRole="WareHouse" />
+  </EntityType>
+  <Association Name="FK_BOMIngredientsProducts_BOMHeader">
+    <End Type="OK_DBModel.BOMHeader" Role="BOMHeader" Multiplicity="1" />
+    <End Type="OK_DBModel.BOMIngredientsProducts" Role="BOMIngredientsProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BOMHeader">
+        <PropertyRef Name="BOMCode" />
+      </Principal>
+      <Dependent Role="BOMIngredientsProducts">
+        <PropertyRef Name="BOMCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOMOutputProduct_BOMHeader">
+    <End Type="OK_DBModel.BOMHeader" Role="BOMHeader" Multiplicity="1" />
+    <End Type="OK_DBModel.BOMOutputProduct" Role="BOMOutputProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BOMHeader">
+        <PropertyRef Name="BOMCode" />
+      </Principal>
+      <Dependent Role="BOMOutputProduct">
+        <PropertyRef Name="BOMCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOMIngredientsProducts_BOMOutputProduct">
+    <End Type="OK_DBModel.BOMOutputProduct" Role="BOMOutputProduct" Multiplicity="1" />
+    <End Type="OK_DBModel.BOMIngredientsProducts" Role="BOMIngredientsProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BOMOutputProduct">
+        <PropertyRef Name="OutputCode" />
+      </Principal>
+      <Dependent Role="BOMIngredientsProducts">
+        <PropertyRef Name="OutputCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOMIngredientsProducts_Product">
+    <End Type="OK_DBModel.Product" Role="Product" Multiplicity="0..1" />
+    <End Type="OK_DBModel.BOMIngredientsProducts" Role="BOMIngredientsProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Product_Code" />
+      </Principal>
+      <Dependent Role="BOMIngredientsProducts">
+        <PropertyRef Name="ProductCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOMIngredientsProducts_WareHouse">
+    <End Type="OK_DBModel.WareHouse" Role="WareHouse" Multiplicity="0..1" />
+    <End Type="OK_DBModel.BOMIngredientsProducts" Role="BOMIngredientsProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WareHouse">
+        <PropertyRef Name="WareHouse_Code" />
+      </Principal>
+      <Dependent Role="BOMIngredientsProducts">
+        <PropertyRef Name="WHCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOMOutputProduct_Product">
+    <End Type="OK_DBModel.Product" Role="Product" Multiplicity="0..1" />
+    <End Type="OK_DBModel.BOMOutputProduct" Role="BOMOutputProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Product_Code" />
+      </Principal>
+      <Dependent Role="BOMOutputProduct">
+        <PropertyRef Name="ProductCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BOMOutputProduct_WareHouse">
+    <End Type="OK_DBModel.WareHouse" Role="WareHouse" Multiplicity="0..1" />
+    <End Type="OK_DBModel.BOMOutputProduct" Role="BOMOutputProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WareHouse">
+        <PropertyRef Name="WareHouse_Code" />
+      </Principal>
+      <Dependent Role="BOMOutputProduct">
+        <PropertyRef Name="WHCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

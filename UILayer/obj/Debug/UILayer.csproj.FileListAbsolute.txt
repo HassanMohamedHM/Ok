@@ -1,0 +1,890 @@
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.csprojResolveAssemblyReference.cache
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_CashBalance.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_Journals.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_Payment.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.General.FRM_City.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Job.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.General.FRM_MaritalStatus.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.HomePage.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_ALLSales.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Customer.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.HR.FRM_Employee.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_PurchaseInvoice.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_SalesInvoice.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Vendor.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_Licence.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Login.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Permission.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Role.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Screen.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_User.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_Site.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.WareHouses.Frm_WareHouse.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Product.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Properties.Resources.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_WareHousesBalances.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_Payment.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.ar.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.HomePage.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_PurchaseInvoice.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_SalesInvoice.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_Licence.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Login.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_WareHousesBalances.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.csproj.GenerateResource.Cache
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.exe.licenses
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\bin\Debug\UILayer.exe.config
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\bin\Debug\UILayer.exe
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\bin\Debug\UILayer.pdb
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\bin\Debug\ar-EG\UILayer.resources.dll
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\bin\Debug\ar\UILayer.resources.dll
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\bin\Debug\BLLayer.dll
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\bin\Debug\DALLayer.dll
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\bin\Debug\EntityFramework.dll
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\bin\Debug\BLLayer.pdb
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\bin\Debug\DALLayer.pdb
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\bin\Debug\EntityFramework.xml
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\ar-EG\UILayer.resources.dll
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\ar\UILayer.resources.dll
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.exe
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.pdb
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_About.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\bin\Debug\ar-BH\UILayer.resources.dll
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_CashBalance.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_Journals.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.General.FRM_City.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Job.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.General.FRM_MaritalStatus.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.HR.FRM_Employee.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Customer.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Vendor.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Product.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.ar-BH.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Role.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_User.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_Site.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.WareHouses.Frm_WareHouse.ar-EG.resources
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\ar-BH\UILayer.resources.dll
+E:\5-3-2018\Hassan\OK\1\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_UOM.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\bin\Debug\UILayer.exe.config
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\bin\Debug\UILayer.exe
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\bin\Debug\UILayer.pdb
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\bin\Debug\ar-EG\UILayer.resources.dll
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\bin\Debug\ar\UILayer.resources.dll
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\bin\Debug\ar-BH\UILayer.resources.dll
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\bin\Debug\BLLayer.dll
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\bin\Debug\DALLayer.dll
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\bin\Debug\EntityFramework.dll
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\bin\Debug\BLLayer.pdb
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\bin\Debug\DALLayer.pdb
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\bin\Debug\EntityFramework.xml
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.csprojResolveAssemblyReference.cache
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.General.FRM_City.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Job.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.General.FRM_MaritalStatus.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.HomePage.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Customer.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.HR.FRM_Employee.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_PurchaseInvoice.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_SalesInvoice.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Vendor.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_About.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_Licence.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_UOM.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Login.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Permission.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Role.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Screen.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_User.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_Site.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.WareHouses.Frm_WareHouse.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Product.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Properties.Resources.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_WareHousesBalances.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.General.FRM_City.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.ar.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Job.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.General.FRM_MaritalStatus.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.HomePage.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.HR.FRM_Employee.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Customer.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_PurchaseInvoice.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_SalesInvoice.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Vendor.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_Licence.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Product.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.ar-BH.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Login.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Role.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_User.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_Site.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.WareHouses.Frm_WareHouse.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_WareHousesBalances.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.csproj.GenerateResource.Cache
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.exe.licenses
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\ar-EG\UILayer.resources.dll
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\ar\UILayer.resources.dll
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\ar-BH\UILayer.resources.dll
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.exe
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.pdb
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AddFinancialDeminsion.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AddFinancialDeminsion.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_FinancialDeminsion.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_FinancialDeminsion.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\bin\Debug\UILayer.exe.config
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\bin\Debug\UILayer.exe
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\bin\Debug\UILayer.pdb
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\bin\Debug\ar-EG\UILayer.resources.dll
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\bin\Debug\ar\UILayer.resources.dll
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\bin\Debug\ar-BH\UILayer.resources.dll
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\bin\Debug\BLLayer.dll
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\bin\Debug\DALLayer.dll
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\bin\Debug\EntityFramework.dll
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\bin\Debug\BLLayer.pdb
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\bin\Debug\DALLayer.pdb
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\bin\Debug\EntityFramework.xml
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.csprojResolveAssemblyReference.cache
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AddFinancialDeminsion.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_FinancialDeminsion.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_GeneralAccounts.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_Journal.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Accounts.Frm_TransactionHeader.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.General.FRM_City.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Job.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.General.FRM_MaritalStatus.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.HomePage.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Customer.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.HR.FRM_Employee.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_PurchaseInvoice.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_SalesInvoice.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Vendor.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_About.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_Licence.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_CategoryUnit.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Product.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_UOM.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Login.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Permission.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Role.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Screen.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_User.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_Site.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.WareHouses.Frm_WareHouse.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Properties.Resources.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_WareHousesBalances.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AddFinancialDeminsion.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_FinancialDeminsion.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_GeneralAccounts.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_Journal.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.General.FRM_City.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.ar.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Job.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.General.FRM_MaritalStatus.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.HomePage.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.HR.FRM_Employee.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Customer.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_PurchaseInvoice.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_SalesInvoice.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Vendor.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_Licence.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_CategoryUnit.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Product.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.ar-BH.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_UOM.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Login.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Role.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_User.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_Site.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.WareHouses.Frm_WareHouse.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_WareHousesBalances.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.csproj.GenerateResource.Cache
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.exe.licenses
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\ar-EG\UILayer.resources.dll
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\ar\UILayer.resources.dll
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\ar-BH\UILayer.resources.dll
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.exe
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.pdb
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStructure.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_ItemGroupPosting.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_ItemGroupPosting.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_CustomerPosting.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Sales.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_VendorPosting.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Sales.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_CustomerPosting.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_VendorPosting.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TransactionLines.resources
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\UILayer\obj\Debug\UILayer.Accounts.Frm_TransactionHeader.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStructure.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_GeneralAccounts.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_Journal.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Accounts.Frm_TransactionHeader.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TransactionLines.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Sales.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_CustomerPosting.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_ItemGroupPosting.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_VendorPosting.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_CategoryUnit.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_GeneralAccounts.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_Journal.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Accounts.Frm_TransactionHeader.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Sales.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_CustomerPosting.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_ItemGroupPosting.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_VendorPosting.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_CategoryUnit.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_UOM.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TransactionLines.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStructure.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\8-4-2018\OkApp\UILayer\bin\Debug\UILayer.exe.config
+E:\5-3-2018\Hassan\OK\2\8-4-2018\OkApp\UILayer\obj\Debug\UILayer.exe
+E:\5-3-2018\Hassan\OK\2\8-4-2018\OkApp\UILayer\obj\Debug\UILayer.pdb
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\UILayer.exe.config
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.exe
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.pdb
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\UILayer.exe
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\UILayer.pdb
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\ar-EG\UILayer.resources.dll
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\ar\UILayer.resources.dll
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\ar-BH\UILayer.resources.dll
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\BLLayer.dll
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\DALLayer.dll
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\EntityFramework.dll
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\BLLayer.pdb
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\DALLayer.pdb
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\EntityFramework.xml
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.csprojResolveAssemblyReference.cache
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStructure.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AddFinancialDeminsion.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_CustomerStatement.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_FinancialDeminsion.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_GeneralAccounts.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_Journal.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.Frm_TransactionHeader.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TransactionLines.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_City.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Job.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_MaritalStatus.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.HomePage.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.HR.FRM_Employee.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Customer.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_PurchaseInvoice.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Sales.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_SalesInvoice.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Vendor.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_About.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_Licence.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_CustomerPosting.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_ItemGroupPosting.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_VendorPosting.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_CategoryUnit.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Product.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_UOM.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Login.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Permission.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Role.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Screen.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_User.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_Site.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.Frm_WareHouse.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Properties.Resources.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_WareHousesBalances.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStructure.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AddFinancialDeminsion.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_FinancialDeminsion.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_GeneralAccounts.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_Journal.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.Frm_TransactionHeader.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TransactionLines.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_City.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.ar.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Job.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_MaritalStatus.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.HomePage.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.HR.FRM_Employee.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Customer.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_PurchaseInvoice.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Sales.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_SalesInvoice.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Vendor.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_Licence.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_CustomerPosting.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_ItemGroupPosting.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_VendorPosting.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_CategoryUnit.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Product.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.ar-BH.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_UOM.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Login.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Role.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_User.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_Site.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.Frm_WareHouse.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_WareHousesBalances.ar-EG.resources
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.csproj.GenerateResource.Cache
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.exe.licenses
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\ar-EG\UILayer.resources.dll
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\ar\UILayer.resources.dll
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\ar-BH\UILayer.resources.dll
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_CustomerStatement.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\UILayer.exe.config
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\UILayer.exe
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\UILayer.pdb
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\ar-EG\UILayer.resources.dll
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\ar\UILayer.resources.dll
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\ar-BH\UILayer.resources.dll
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\BLLayer.dll
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\DALLayer.dll
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\EntityFramework.dll
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\BLLayer.pdb
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\DALLayer.pdb
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\EntityFramework.xml
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.csprojResolveAssemblyReference.cache
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStructure.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AddFinancialDeminsion.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_VendorStatement.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_CustomerStatement.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_FinancialDeminsion.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_GeneralAccounts.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_Journal.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.Frm_TransactionHeader.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TransactionLines.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_City.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Job.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_MaritalStatus.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.FRM_HomePage.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.HR.FRM_Employee.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Customer.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_PurchaseInvoice.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Sales.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_SalesInvoice.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Vendor.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_About.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_Licence.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_CustomerPosting.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_ItemGroupPosting.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_VendorPosting.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_CategoryUnit.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Product.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_UOM.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Login.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Permission.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Role.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Screen.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_User.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_Site.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.Frm_WareHouse.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Properties.Resources.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_WareHousesBalances.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStructure.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AddFinancialDeminsion.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_VendorStatement.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_CustomerStatement.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_FinancialDeminsion.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_GeneralAccounts.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_Journal.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.Frm_TransactionHeader.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TransactionLines.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_City.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.ar.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Job.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_MaritalStatus.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.FRM_HomePage.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.HR.FRM_Employee.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Customer.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_PurchaseInvoice.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Sales.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_SalesInvoice.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Vendor.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_Licence.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_CustomerPosting.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_ItemGroupPosting.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_VendorPosting.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_CategoryUnit.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Product.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.ar-BH.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_UOM.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Login.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Role.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_User.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_Site.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.Frm_WareHouse.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_WareHousesBalances.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.csproj.GenerateResource.Cache
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.exe.licenses
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\ar-EG\UILayer.resources.dll
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\ar\UILayer.resources.dll
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\ar-BH\UILayer.resources.dll
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.exe
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.pdb
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStatement.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStatement.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TrialBalance.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TrialBalance.ar-EG.resources
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_BOMJournal.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\UILayer.exe.config
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.exe
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.pdb
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\UILayer.exe
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\UILayer.pdb
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\ar-EG\UILayer.resources.dll
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\ar\UILayer.resources.dll
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\ar-BH\UILayer.resources.dll
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\BLLayer.dll
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\DALLayer.dll
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\EntityFramework.dll
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\BLLayer.pdb
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\DALLayer.pdb
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\EntityFramework.xml
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.csprojResolveAssemblyReference.cache
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStatement.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStructure.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AddFinancialDeminsion.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TrialBalance.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_VendorStatement.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_CustomerStatement.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_FinancialDeminsion.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_GeneralAccounts.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_Journal.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.Frm_TransactionHeader.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TransactionLines.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_City.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Job.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_MaritalStatus.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.FRM_HomePage.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.HR.FRM_Employee.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Customer.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_PurchaseInvoice.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Sales.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_SalesInvoice.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Vendor.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_About.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_Licence.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_CustomerPosting.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_ItemGroupPosting.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_VendorPosting.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_CategoryUnit.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Product.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_UOM.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Login.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Permission.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Role.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Screen.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_User.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_BOMJournal.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_Site.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.Frm_WareHouse.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Properties.Resources.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_WareHousesBalances.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStatement.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStructure.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AddFinancialDeminsion.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TrialBalance.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_VendorStatement.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_CustomerStatement.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_FinancialDeminsion.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_GeneralAccounts.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_Journal.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.Frm_TransactionHeader.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TransactionLines.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_City.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.ar.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Job.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.General.FRM_MaritalStatus.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.FRM_HomePage.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.HR.FRM_Employee.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Customer.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_PurchaseInvoice.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Sales.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_SalesInvoice.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Vendor.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_Licence.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_CustomerPosting.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_ItemGroupPosting.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_VendorPosting.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_CategoryUnit.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Product.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.ar-BH.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_UOM.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Login.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Role.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_User.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_Site.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.Frm_WareHouse.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_WareHousesBalances.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.csproj.GenerateResource.Cache
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.exe.licenses
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\ar-EG\UILayer.resources.dll
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\ar\UILayer.resources.dll
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\ar-BH\UILayer.resources.dll
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_BOMLines.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_BOMJournal.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_BOMLines.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Settings.FRM_Organization.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Settings.FRM_Organization.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_About.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OkApp - 28-04-2018\OkApp\UILayer\bin\Debug\UILayer.exe.config
+E:\OK\5-3-2018\Hassan\OK\2\OkApp - 28-04-2018\OkApp\UILayer\obj\Debug\UILayer.exe
+E:\OK\5-3-2018\Hassan\OK\2\OkApp - 28-04-2018\OkApp\UILayer\obj\Debug\UILayer.pdb
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\bin\Debug\UILayer.exe.config
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.exe
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.pdb
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\bin\Debug\UILayer.exe
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\bin\Debug\UILayer.pdb
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\bin\Debug\ar-EG\UILayer.resources.dll
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\bin\Debug\ar\UILayer.resources.dll
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\bin\Debug\ar-BH\UILayer.resources.dll
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\bin\Debug\BLLayer.dll
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\bin\Debug\DALLayer.dll
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\bin\Debug\EntityFramework.dll
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\bin\Debug\BLLayer.pdb
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\bin\Debug\DALLayer.pdb
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\bin\Debug\EntityFramework.xml
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.csprojResolveAssemblyReference.cache
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStatement.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStructure.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AddFinancialDeminsion.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TrialBalance.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_VendorStatement.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_CustomerStatement.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_FinancialDeminsion.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_GeneralAccounts.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_Journal.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.Frm_TransactionHeader.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TransactionLines.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.General.FRM_City.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Job.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.General.FRM_MaritalStatus.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.FRM_HomePage.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.HR.FRM_Employee.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Customer.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_PurchaseInvoice.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Sales.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_SalesInvoice.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Vendor.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_About.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_Licence.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_CustomerPosting.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_ItemGroupPosting.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_VendorPosting.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_CategoryUnit.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Product.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_UOM.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Settings.FRM_Organization.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Login.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Permission.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Role.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Screen.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_User.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_BOMJournal.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_BOMLines.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_Site.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.WareHouses.Frm_WareHouse.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Properties.Resources.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_WareHousesBalances.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStatement.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStructure.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AddFinancialDeminsion.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TrialBalance.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_VendorStatement.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_CustomerStatement.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_FinancialDeminsion.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_GeneralAccounts.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_Journal.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.Frm_TransactionHeader.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TransactionLines.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.General.FRM_City.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.ar.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Job.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.General.FRM_MaritalStatus.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.FRM_HomePage.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.HR.FRM_Employee.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Customer.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_PurchaseInvoice.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Sales.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_SalesInvoice.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Vendor.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_About.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_Licence.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_CustomerPosting.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_ItemGroupPosting.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_VendorPosting.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_CategoryUnit.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Product.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.ar-BH.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_UOM.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Settings.FRM_Organization.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Login.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Role.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_User.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_BOMJournal.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_BOMLines.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_Site.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.WareHouses.Frm_WareHouse.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_WareHousesBalances.ar-EG.resources
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.csproj.GenerateResource.Cache
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.exe.licenses
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\ar-EG\UILayer.resources.dll
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\ar\UILayer.resources.dll
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\ar-BH\UILayer.resources.dll
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_InvoiceSales.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\bin\Debug\UILayer.exe.config
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.exe
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.pdb
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\bin\Debug\UILayer.exe
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\bin\Debug\UILayer.pdb
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\bin\Debug\ar-EG\UILayer.resources.dll
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\bin\Debug\ar\UILayer.resources.dll
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\bin\Debug\ar-BH\UILayer.resources.dll
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\bin\Debug\BLLayer.dll
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\bin\Debug\DALLayer.dll
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\bin\Debug\EntityFramework.dll
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\bin\Debug\BLLayer.pdb
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\bin\Debug\DALLayer.pdb
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\bin\Debug\EntityFramework.xml
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.csprojResolveAssemblyReference.cache
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStatement.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStructure.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AddFinancialDeminsion.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TrialBalance.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_VendorStatement.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_CustomerStatement.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_FinancialDeminsion.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_GeneralAccounts.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_Journal.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.Frm_TransactionHeader.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TransactionLines.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.General.FRM_City.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Job.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.General.FRM_MaritalStatus.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.FRM_HomePage.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.HR.FRM_Employee.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Customer.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_InvoiceSales.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_PurchaseInvoice.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Sales.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_SalesInvoice.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Vendor.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_About.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_Licence.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_CustomerPosting.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_ItemGroupPosting.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_VendorPosting.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_CategoryUnit.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Product.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_UOM.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Settings.FRM_Organization.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Login.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Permission.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Role.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Screen.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_User.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_BOMJournal.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_BOMLines.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_Site.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.WareHouses.Frm_WareHouse.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Properties.Resources.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_WareHousesBalances.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStatement.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStructure.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AddFinancialDeminsion.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TrialBalance.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_VendorStatement.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_CustomerStatement.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_FinancialDeminsion.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_GeneralAccounts.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_Journal.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.Frm_TransactionHeader.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TransactionLines.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.General.FRM_City.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.ar.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Job.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.General.FRM_MaritalStatus.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.FRM_HomePage.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.HR.FRM_Employee.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Customer.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_PurchaseInvoice.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Sales.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_SalesInvoice.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Vendor.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_About.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_Licence.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_CustomerPosting.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_ItemGroupPosting.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_VendorPosting.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_CategoryUnit.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Product.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.ar-BH.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_UOM.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Settings.FRM_Organization.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Login.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Role.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_User.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_BOMJournal.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_BOMLines.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_Site.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.WareHouses.Frm_WareHouse.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_WareHousesBalances.ar-EG.resources
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.csproj.GenerateResource.Cache
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.exe.licenses
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\ar-EG\UILayer.resources.dll
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\ar\UILayer.resources.dll
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\ar-BH\UILayer.resources.dll
+E:\__OK ERP\000-01-05-2018\OK 01-05-2018\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_SalesInvoice.ar.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\bin\Debug\UILayer.exe.config
+D:\Hassan\Hassan Ok\OkApp\UILayer\bin\Debug\UILayer.exe
+D:\Hassan\Hassan Ok\OkApp\UILayer\bin\Debug\UILayer.pdb
+D:\Hassan\Hassan Ok\OkApp\UILayer\bin\Debug\ar-EG\UILayer.resources.dll
+D:\Hassan\Hassan Ok\OkApp\UILayer\bin\Debug\ar\UILayer.resources.dll
+D:\Hassan\Hassan Ok\OkApp\UILayer\bin\Debug\ar-BH\UILayer.resources.dll
+D:\Hassan\Hassan Ok\OkApp\UILayer\bin\Debug\BLLayer.dll
+D:\Hassan\Hassan Ok\OkApp\UILayer\bin\Debug\DALLayer.dll
+D:\Hassan\Hassan Ok\OkApp\UILayer\bin\Debug\EntityFramework.dll
+D:\Hassan\Hassan Ok\OkApp\UILayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Hassan\Hassan Ok\OkApp\UILayer\bin\Debug\BLLayer.pdb
+D:\Hassan\Hassan Ok\OkApp\UILayer\bin\Debug\DALLayer.pdb
+D:\Hassan\Hassan Ok\OkApp\UILayer\bin\Debug\EntityFramework.xml
+D:\Hassan\Hassan Ok\OkApp\UILayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.csprojResolveAssemblyReference.cache
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStatement.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStructure.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AddFinancialDeminsion.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TrialBalance.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_VendorStatement.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_CustomerStatement.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_FinancialDeminsion.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_GeneralAccounts.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_Journal.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.Frm_TransactionHeader.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TransactionLines.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.General.FRM_City.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Job.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.General.FRM_MaritalStatus.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.FRM_HomePage.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.HR.FRM_Employee.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Customer.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_InvoiceSales.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_PurchaseInvoice.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Sales.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_SalesInvoice.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Vendor.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_About.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_Licence.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_CustomerPosting.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_ItemGroupPosting.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_VendorPosting.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_CategoryUnit.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Product.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_UOM.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Settings.FRM_Organization.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Login.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Permission.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Role.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Screen.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_User.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_BOMJournal.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_BOMLines.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_Site.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.WareHouses.Frm_WareHouse.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Properties.Resources.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_WareHousesBalances.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStatement.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AccountStructure.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_AddFinancialDeminsion.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TrialBalance.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_VendorStatement.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_CustomerStatement.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_FinancialDeminsion.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_GeneralAccounts.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_Journal.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.Frm_TransactionHeader.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Accounts.FRM_TransactionLines.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.General.FRM_City.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Country.ar.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.General.FRM_Job.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.General.FRM_MaritalStatus.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.FRM_HomePage.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.HR.FRM_Employee.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Customer.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_PurchaseInvoice.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Sales.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_SalesInvoice.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_SalesInvoice.ar.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Invoices.FRM_Vendor.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_About.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Licences.FRM_Licence.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_CustomerPosting.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_ItemGroupPosting.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Posting.FRM_VendorPosting.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_CategoryUnit.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Product.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.ar-BH.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_Unit.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Products.FRM_UOM.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Settings.FRM_Organization.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Login.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_Role.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.Users.FRM_User.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_BOMJournal.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_BOMLines.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_Site.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.WareHouses.Frm_WareHouse.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.WareHouses.FRM_WareHousesBalances.ar-EG.resources
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.csproj.GenerateResource.Cache
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.exe.licenses
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\ar-EG\UILayer.resources.dll
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\ar\UILayer.resources.dll
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\ar-BH\UILayer.resources.dll
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.exe
+D:\Hassan\Hassan Ok\OkApp\UILayer\obj\Debug\UILayer.pdb

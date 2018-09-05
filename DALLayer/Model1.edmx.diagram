@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="febb4b556d5f43eda762673f926a61ee" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="OK_DBModel.AccountBalance" Width="1.5" PointX="5.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.Accounts" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.AccountStructure" Width="1.5" PointX="3" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.AccountType" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.City" Width="1.5" PointX="6.25" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.Country" Width="1.5" PointX="4" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.Customer" Width="1.5" PointX="10.75" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.CustomerGroup" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.CustomerPosting" Width="1.5" PointX="5.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.Employee" Width="1.5" PointX="8.5" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.Expired_Date" Width="1.5" PointX="13" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.FinancialCategory" Width="1.5" PointX="3" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.FinancialDeminsions" Width="1.5" PointX="5.25" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.ItemPosting" Width="1.5" PointX="8.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.Job" Width="1.5" PointX="6.25" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.JournalNames" Width="1.5" PointX="10.75" PointY="27.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.Lic" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.MaritalStatus" Width="1.5" PointX="6.25" PointY="27.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.OfferedProducts" Width="1.5" PointX="18.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.Organization" Width="1.5" PointX="8.5" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.Permission" Width="1.5" PointX="13.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.PermissionsInScreen" Width="1.5" PointX="19" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.PostedTransactions" Width="1.5" PointX="13" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.Product" Width="1.5" PointX="16" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.ProductGroup" Width="1.5" PointX="6" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.ProductOffers" Width="1.5" PointX="16" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.ProductOnHand" Width="1.5" PointX="21.25" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.PurchaseDetails" Width="1.5" PointX="18.25" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.PurchaseHeader" Width="1.5" PointX="16" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.Role" Width="1.5" PointX="13.75" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.SalesDetails" Width="1.5" PointX="18.25" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.SalesHeader" Width="1.5" PointX="13" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.Screen" Width="1.5" PointX="13.75" PointY="29.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.ScreensInRole" Width="1.5" PointX="16" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.Site" Width="1.5" PointX="8.5" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.StructureDeminsions" Width="1.5" PointX="5.25" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.TransactionHeader" Width="1.5" PointX="13" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.TransactionLines" Width="1.5" PointX="15.25" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.Unit" Width="1.5" PointX="13.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.UOMCCategory" Width="1.5" PointX="11.5" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.UOMConversions" Width="1.5" PointX="21.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.UOMCType" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.User" Width="1.5" PointX="10.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.UserRoles" Width="1.5" PointX="16" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.Vendor" Width="1.5" PointX="13.75" PointY="32.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.VendorGroup" Width="1.5" PointX="6" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.VendorPosting" Width="1.5" PointX="8.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OK_DBModel.WareHouse" Width="1.5" PointX="10.75" PointY="12.25" IsExpanded="true" />
+        <AssociationConnector Association="OK_DBModel.FK_AccountBalance_Accounts" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_Accounts_AccountType" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_CustomerPosting_Accounts" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_CustomerPosting_Accounts1" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_ItemPosting_Accounts" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_ItemPosting_Accounts1" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_ItemPosting_Accounts2" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_ItemPosting_Accounts3" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_ItemPosting_Accounts4" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_ItemPosting_Accounts5" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_ItemPosting_Accounts6" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_ItemPosting_Accounts7" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_ItemPosting_Accounts8" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_StrucrureDeminsions_Accounts" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_VendorPosting_Accounts" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_VendorPosting_Accounts1" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_StrucrureDeminsions_AccountStructure" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_Branch_City" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_City_Country1" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_Customer_City" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_Employee_City" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_Organization_City" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_Vendor_City" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_Customer_CustomerGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_SalesHeader_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_CustomerPosting_CustomerGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_Employee_FinancialDeminsions" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_Employee_Job" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_Employee_MaritalStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_User_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_WareHouse_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_Expired_Date_Inventory" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_Expired_Date_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_FinancialDeminsions_FinancialCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_StrucrureDeminsions_FinancialCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_ItemPosting_ProductGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_TransactionHeader_JournalNames" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_OfferedProducts_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_OfferedProducts_ProductOffers" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_PermissionsInScreen_Permission" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_UserRoles_Permission" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_PermissionsInScreen_Screen" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_PostedTransactions_TransactionHeader" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_PostedTransactions_User" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.DefInventoryUnit" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.DefualtPurchaseUnit" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.DefualtPurchaseWareHouse" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.DefualtSalesUnit" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.DefualtSalesWareHouse" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_Product_ProductGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_ProductOnHand_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_PurchaseDetails_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_SalesDetails_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_UOMConversions_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_ProductOnHand_Unit" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_ProductOnHand_WareHouse" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_PurchaseDetails_PurchaseHeader" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_PurchaseHeader_User" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_PurchaseHeader_Vendor" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_PurchaseHeader_WareHouse" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_ScreensInRole_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_UserRoles_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_SalesDetails_SalesHeader" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_SalesHeader_User" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_SalesHeader_WareHouse" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_ScreensInRole_Screen" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_UserRoles_Screen" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_Inventory_Branch" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_TransactionHeader_User" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_TransactionLines_TransactionHeader" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_Unit_UOMCCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.UnitFrom" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.UnitTo" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_UserRoles_User" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_Vendor_VendorGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="OK_DBModel.FK_VendorPosting_VendorGroup" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="OK_DBModel.BOMHeader" Width="1.5" PointX="13" PointY="36.75" />
+        <AssociationConnector Association="OK_DBModel.FK_BOMHeader_User" />
+        <EntityTypeShape EntityType="OK_DBModel.BOMIngredientsProducts" Width="1.5" PointX="20.5" PointY="20.875" />
+        <EntityTypeShape EntityType="OK_DBModel.BOMOutputProduct" Width="1.5" PointX="18.25" PointY="21" />
+        <AssociationConnector Association="OK_DBModel.FK_BOMIngredientsProducts_BOMHeader" />
+        <AssociationConnector Association="OK_DBModel.FK_BOMOutputProduct_BOMHeader" />
+        <AssociationConnector Association="OK_DBModel.FK_BOMIngredientsProducts_BOMOutputProduct" />
+        <AssociationConnector Association="OK_DBModel.FK_BOMIngredientsProducts_Product" />
+        <AssociationConnector Association="OK_DBModel.FK_BOMIngredientsProducts_WareHouse" />
+        <AssociationConnector Association="OK_DBModel.FK_BOMOutputProduct_Product" />
+        <AssociationConnector Association="OK_DBModel.FK_BOMOutputProduct_WareHouse" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

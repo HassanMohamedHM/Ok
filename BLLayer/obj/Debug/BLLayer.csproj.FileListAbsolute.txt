@@ -1,0 +1,88 @@
+E:\5-3-2018\Hassan\OK\1\OkApp\BLLayer\obj\Debug\BLLayer.csprojResolveAssemblyReference.cache
+E:\5-3-2018\Hassan\OK\1\OkApp\BLLayer\bin\Debug\BLLayer.dll
+E:\5-3-2018\Hassan\OK\1\OkApp\BLLayer\bin\Debug\BLLayer.pdb
+E:\5-3-2018\Hassan\OK\1\OkApp\BLLayer\bin\Debug\DALLayer.dll
+E:\5-3-2018\Hassan\OK\1\OkApp\BLLayer\bin\Debug\EntityFramework.dll
+E:\5-3-2018\Hassan\OK\1\OkApp\BLLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\5-3-2018\Hassan\OK\1\OkApp\BLLayer\bin\Debug\DALLayer.pdb
+E:\5-3-2018\Hassan\OK\1\OkApp\BLLayer\bin\Debug\EntityFramework.xml
+E:\5-3-2018\Hassan\OK\1\OkApp\BLLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\5-3-2018\Hassan\OK\1\OkApp\BLLayer\obj\Debug\BLLayer.dll
+E:\5-3-2018\Hassan\OK\1\OkApp\BLLayer\obj\Debug\BLLayer.pdb
+E:\5-3-2018\Hassan\OK\2\OkApp\BLLayer\bin\Debug\BLLayer.dll
+E:\5-3-2018\Hassan\OK\2\OkApp\BLLayer\bin\Debug\BLLayer.pdb
+E:\5-3-2018\Hassan\OK\2\OkApp\BLLayer\bin\Debug\DALLayer.dll
+E:\5-3-2018\Hassan\OK\2\OkApp\BLLayer\bin\Debug\EntityFramework.dll
+E:\5-3-2018\Hassan\OK\2\OkApp\BLLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\5-3-2018\Hassan\OK\2\OkApp\BLLayer\bin\Debug\DALLayer.pdb
+E:\5-3-2018\Hassan\OK\2\OkApp\BLLayer\bin\Debug\EntityFramework.xml
+E:\5-3-2018\Hassan\OK\2\OkApp\BLLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\5-3-2018\Hassan\OK\2\OkApp\BLLayer\obj\Debug\BLLayer.csprojResolveAssemblyReference.cache
+E:\5-3-2018\Hassan\OK\2\OkApp\BLLayer\obj\Debug\BLLayer.dll
+E:\5-3-2018\Hassan\OK\2\OkApp\BLLayer\obj\Debug\BLLayer.pdb
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\BLLayer\bin\Debug\BLLayer.dll
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\BLLayer\bin\Debug\BLLayer.pdb
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\BLLayer\bin\Debug\DALLayer.dll
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\BLLayer\bin\Debug\EntityFramework.dll
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\BLLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\BLLayer\bin\Debug\DALLayer.pdb
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\BLLayer\bin\Debug\EntityFramework.xml
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\BLLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\BLLayer\obj\Debug\BLLayer.csprojResolveAssemblyReference.cache
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\BLLayer\obj\Debug\BLLayer.dll
+D:\5-3-2018\Hassan\OK\2\OK2\OkApp\BLLayer\obj\Debug\BLLayer.pdb
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\BLLayer.dll
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\BLLayer.pdb
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\DALLayer.dll
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\EntityFramework.dll
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\DALLayer.pdb
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\EntityFramework.xml
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\obj\Debug\BLLayer.csprojResolveAssemblyReference.cache
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\obj\Debug\BLLayer.dll
+E:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\obj\Debug\BLLayer.pdb
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\BLLayer.dll
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\BLLayer.pdb
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\DALLayer.dll
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\EntityFramework.dll
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\DALLayer.pdb
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\EntityFramework.xml
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\obj\Debug\BLLayer.csprojResolveAssemblyReference.cache
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\obj\Debug\BLLayer.dll
+D:\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\obj\Debug\BLLayer.pdb
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\BLLayer.dll
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\BLLayer.pdb
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\DALLayer.dll
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\EntityFramework.dll
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\DALLayer.pdb
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\EntityFramework.xml
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\obj\Debug\BLLayer.csprojResolveAssemblyReference.cache
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\obj\Debug\BLLayer.dll
+E:\OK\5-3-2018\Hassan\OK\2\نسخة محلات صغيرة\OkApp\BLLayer\obj\Debug\BLLayer.pdb
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\BLLayer\obj\Debug\BLLayer.csprojResolveAssemblyReference.cache
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\BLLayer\obj\Debug\BLLayer.dll
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\BLLayer\obj\Debug\BLLayer.pdb
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\BLLayer\bin\Debug\BLLayer.dll
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\BLLayer\bin\Debug\BLLayer.pdb
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\BLLayer\bin\Debug\DALLayer.dll
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\BLLayer\bin\Debug\EntityFramework.dll
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\BLLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\BLLayer\bin\Debug\DALLayer.pdb
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\BLLayer\bin\Debug\EntityFramework.xml
+E:\OK\5-3-2018\Hassan\OK\2\OK 01-05-2018\OkApp\BLLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Hassan\Hassan Ok\OkApp\BLLayer\bin\Debug\BLLayer.dll
+D:\Hassan\Hassan Ok\OkApp\BLLayer\bin\Debug\BLLayer.pdb
+D:\Hassan\Hassan Ok\OkApp\BLLayer\bin\Debug\DALLayer.dll
+D:\Hassan\Hassan Ok\OkApp\BLLayer\bin\Debug\EntityFramework.dll
+D:\Hassan\Hassan Ok\OkApp\BLLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Hassan\Hassan Ok\OkApp\BLLayer\bin\Debug\DALLayer.pdb
+D:\Hassan\Hassan Ok\OkApp\BLLayer\bin\Debug\EntityFramework.xml
+D:\Hassan\Hassan Ok\OkApp\BLLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Hassan\Hassan Ok\OkApp\BLLayer\obj\Debug\BLLayer.csprojResolveAssemblyReference.cache
+D:\Hassan\Hassan Ok\OkApp\BLLayer\obj\Debug\BLLayer.dll
+D:\Hassan\Hassan Ok\OkApp\BLLayer\obj\Debug\BLLayer.pdb

@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OK_DBModelStoreContainer" CdmEntityContainer="OK_DBEntities">
+    <EntitySetMapping Name="AccountBalance">
+      <EntityTypeMapping TypeName="OK_DBModel.AccountBalance">
+        <MappingFragment StoreEntitySet="AccountBalance">
+          <ScalarProperty Name="accCode" ColumnName="accCode" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="DebitAmount" ColumnName="DebitAmount" />
+          <ScalarProperty Name="CreditAmount" ColumnName="CreditAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="OK_DBModel.Accounts">
+        <MappingFragment StoreEntitySet="Accounts">
+          <ScalarProperty Name="accCode" ColumnName="accCode" />
+          <ScalarProperty Name="accName" ColumnName="accName" />
+          <ScalarProperty Name="accLevel" ColumnName="accLevel" />
+          <ScalarProperty Name="MainAccCode" ColumnName="MainAccCode" />
+          <ScalarProperty Name="typeCode" ColumnName="typeCode" />
+          <ScalarProperty Name="AllowManualEntry" ColumnName="AllowManualEntry" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccountStructure">
+      <EntityTypeMapping TypeName="OK_DBModel.AccountStructure">
+        <MappingFragment StoreEntitySet="AccountStructure">
+          <ScalarProperty Name="StructureCode" ColumnName="StructureCode" />
+          <ScalarProperty Name="StructureName" ColumnName="StructureName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccountType">
+      <EntityTypeMapping TypeName="OK_DBModel.AccountType">
+        <MappingFragment StoreEntitySet="AccountType">
+          <ScalarProperty Name="typeCode" ColumnName="typeCode" />
+          <ScalarProperty Name="typeName" ColumnName="typeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="City">
+      <EntityTypeMapping TypeName="OK_DBModel.City">
+        <MappingFragment StoreEntitySet="City">
+          <ScalarProperty Name="City_Code" ColumnName="City_Code" />
+          <ScalarProperty Name="City_Name" ColumnName="City_Name" />
+          <ScalarProperty Name="Country_Code" ColumnName="Country_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Country">
+      <EntityTypeMapping TypeName="OK_DBModel.Country">
+        <MappingFragment StoreEntitySet="Country">
+          <ScalarProperty Name="Country_Code" ColumnName="Country_Code" />
+          <ScalarProperty Name="Country_Name" ColumnName="Country_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customer">
+      <EntityTypeMapping TypeName="OK_DBModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="Customer_Code" ColumnName="Customer_Code" />
+          <ScalarProperty Name="Customer_Name" ColumnName="Customer_Name" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City_Code" ColumnName="City_Code" />
+          <ScalarProperty Name="Mobile1" ColumnName="Mobile1" />
+          <ScalarProperty Name="Mobile2" ColumnName="Mobile2" />
+          <ScalarProperty Name="EMail" ColumnName="EMail" />
+          <ScalarProperty Name="FaceBook" ColumnName="FaceBook" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="CreditLimit" ColumnName="CreditLimit" />
+          <ScalarProperty Name="GroupCode" ColumnName="GroupCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerGroup">
+      <EntityTypeMapping TypeName="OK_DBModel.CustomerGroup">
+        <MappingFragment StoreEntitySet="CustomerGroup">
+          <ScalarProperty Name="GroupCode" ColumnName="GroupCode" />
+          <ScalarProperty Name="GroupName" ColumnName="GroupName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerPosting">
+      <EntityTypeMapping TypeName="OK_DBModel.CustomerPosting">
+        <MappingFragment StoreEntitySet="CustomerPosting">
+          <ScalarProperty Name="CustomerGroupCode" ColumnName="CustomerGroupCode" />
+          <ScalarProperty Name="CustomerAccount" ColumnName="CustomerAccount" />
+          <ScalarProperty Name="CashAccount" ColumnName="CashAccount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employee">
+      <EntityTypeMapping TypeName="OK_DBModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="Employee_Code" ColumnName="Employee_Code" />
+          <ScalarProperty Name="Employee_Name" ColumnName="Employee_Name" />
+          <ScalarProperty Name="Manager_Code" ColumnName="Manager_Code" />
+          <ScalarProperty Name="Job_Code" ColumnName="Job_Code" />
+          <ScalarProperty Name="BirthDate" ColumnName="BirthDate" />
+          <ScalarProperty Name="HireDate" ColumnName="HireDate" />
+          <ScalarProperty Name="Employee_Image" ColumnName="Employee_Image" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City_Code" ColumnName="City_Code" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="LinkedIn" ColumnName="LinkedIn" />
+          <ScalarProperty Name="FaceBook" ColumnName="FaceBook" />
+          <ScalarProperty Name="Mobile1" ColumnName="Mobile1" />
+          <ScalarProperty Name="Mobile2" ColumnName="Mobile2" />
+          <ScalarProperty Name="MaritalStatus_Code" ColumnName="MaritalStatus_Code" />
+          <ScalarProperty Name="FixedSalary" ColumnName="FixedSalary" />
+          <ScalarProperty Name="MotivateSalary" ColumnName="MotivateSalary" />
+          <ScalarProperty Name="NetSalary" ColumnName="NetSalary" />
+          <ScalarProperty Name="FinDemCode" ColumnName="FinDemCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Expired_Date">
+      <EntityTypeMapping TypeName="OK_DBModel.Expired_Date">
+        <MappingFragment StoreEntitySet="Expired_Date">
+          <ScalarProperty Name="Expired_Code" ColumnName="Expired_Code" />
+          <ScalarProperty Name="Expired_Date1" ColumnName="Expired_Date" />
+          <ScalarProperty Name="Product_Code" ColumnName="Product_Code" />
+          <ScalarProperty Name="Inventory_Code" ColumnName="Inventory_Code" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FinancialCategory">
+      <EntityTypeMapping TypeName="OK_DBModel.FinancialCategory">
+        <MappingFragment StoreEntitySet="FinancialCategory">
+          <ScalarProperty Name="FinCatCode" ColumnName="FinCatCode" />
+          <ScalarProperty Name="FinCatName" ColumnName="FinCatName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FinancialDeminsions">
+      <EntityTypeMapping TypeName="OK_DBModel.FinancialDeminsions">
+        <MappingFragment StoreEntitySet="FinancialDeminsions">
+          <ScalarProperty Name="FinDemCode" ColumnName="FinDemCode" />
+          <ScalarProperty Name="FinDemName" ColumnName="FinDemName" />
+          <ScalarProperty Name="FinCatCode" ColumnName="FinCatCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ItemPosting">
+      <EntityTypeMapping TypeName="OK_DBModel.ItemPosting">
+        <MappingFragment StoreEntitySet="ItemPosting">
+          <ScalarProperty Name="ProductGroupCode" ColumnName="ProductGroupCode" />
+          <ScalarProperty Name="IssueAccount" ColumnName="IssueAccount" />
+          <ScalarProperty Name="ConsumptionAccount" ColumnName="ConsumptionAccount" />
+          <ScalarProperty Name="RevenueAccount" ColumnName="RevenueAccount" />
+          <ScalarProperty Name="SalesDiscountAccount" ColumnName="SalesDiscountAccount" />
+          <ScalarProperty Name="SalesTaxesAccount" ColumnName="SalesTaxesAccount" />
+          <ScalarProperty Name="ProductRecieptAccount" ColumnName="ProductRecieptAccount" />
+          <ScalarProperty Name="PurchaseAccrualAccount" ColumnName="PurchaseAccrualAccount" />
+          <ScalarProperty Name="PurchaseDiscountAccount" ColumnName="PurchaseDiscountAccount" />
+          <ScalarProperty Name="PurchaseTaxesAccount" ColumnName="PurchaseTaxesAccount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Job">
+      <EntityTypeMapping TypeName="OK_DBModel.Job">
+        <MappingFragment StoreEntitySet="Job">
+          <ScalarProperty Name="Job_Code" ColumnName="Job_Code" />
+          <ScalarProperty Name="Job_Name" ColumnName="Job_Name" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JournalNames">
+      <EntityTypeMapping TypeName="OK_DBModel.JournalNames">
+        <MappingFragment StoreEntitySet="JournalNames">
+          <ScalarProperty Name="JournalCode" ColumnName="JournalCode" />
+          <ScalarProperty Name="JournalName" ColumnName="JournalName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lic">
+      <EntityTypeMapping TypeName="OK_DBModel.Lic">
+        <MappingFragment StoreEntitySet="Lic">
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Lic1" ColumnName="Lic" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MaritalStatus">
+      <EntityTypeMapping TypeName="OK_DBModel.MaritalStatus">
+        <MappingFragment StoreEntitySet="MaritalStatus">
+          <ScalarProperty Name="MaritalStatusCode" ColumnName="MaritalStatusCode" />
+          <ScalarProperty Name="MaritalStatusName" ColumnName="MaritalStatusName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OfferedProducts">
+      <EntityTypeMapping TypeName="OK_DBModel.OfferedProducts">
+        <MappingFragment StoreEntitySet="OfferedProducts">
+          <ScalarProperty Name="LineCode" ColumnName="LineCode" />
+          <ScalarProperty Name="OfferCode" ColumnName="OfferCode" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Organization">
+      <EntityTypeMapping TypeName="OK_DBModel.Organization">
+        <MappingFragment StoreEntitySet="Organization">
+          <ScalarProperty Name="OrganizationCode" ColumnName="OrganizationCode" />
+          <ScalarProperty Name="OrganizationName" ColumnName="OrganizationName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City_Code" ColumnName="City_Code" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Website" ColumnName="Website" />
+          <ScalarProperty Name="EMail" ColumnName="EMail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Permission">
+      <EntityTypeMapping TypeName="OK_DBModel.Permission">
+        <MappingFragment StoreEntitySet="Permission">
+          <ScalarProperty Name="Permission_Code" ColumnName="Permission_Code" />
+          <ScalarProperty Name="Permission_Name" ColumnName="Permission_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PermissionsInScreen">
+      <EntityTypeMapping TypeName="OK_DBModel.PermissionsInScreen">
+        <MappingFragment StoreEntitySet="PermissionsInScreen">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Screen_Code" ColumnName="Screen_Code" />
+          <ScalarProperty Name="Permission_Code" ColumnName="Permission_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PostedTransactions">
+      <EntityTypeMapping TypeName="OK_DBModel.PostedTransactions">
+        <MappingFragment StoreEntitySet="PostedTransactions">
+          <ScalarProperty Name="LinCode" ColumnName="LinCode" />
+          <ScalarProperty Name="transCode" ColumnName="transCode" />
+          <ScalarProperty Name="PostedDate" ColumnName="PostedDate" />
+          <ScalarProperty Name="PostedTime" ColumnName="PostedTime" />
+          <ScalarProperty Name="UserCode" ColumnName="UserCode" />
+          <ScalarProperty Name="accCode" ColumnName="accCode" />
+          <ScalarProperty Name="DebitAmount" ColumnName="DebitAmount" />
+          <ScalarProperty Name="CreditAmount" ColumnName="CreditAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Product">
+      <EntityTypeMapping TypeName="OK_DBModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="Product_Code" ColumnName="Product_Code" />
+          <ScalarProperty Name="Product_Name" ColumnName="Product_Name" />
+          <ScalarProperty Name="ProductDesc" ColumnName="ProductDesc" />
+          <ScalarProperty Name="SearchName" ColumnName="SearchName" />
+          <ScalarProperty Name="Product_Image" ColumnName="Product_Image" />
+          <ScalarProperty Name="Product_Barcode" ColumnName="Product_Barcode" />
+          <ScalarProperty Name="DefPurchaseWH" ColumnName="DefPurchaseWH" />
+          <ScalarProperty Name="DefSalesWH" ColumnName="DefSalesWH" />
+          <ScalarProperty Name="DefInventoryUnit" ColumnName="DefInventoryUnit" />
+          <ScalarProperty Name="DefPurchaseUnit" ColumnName="DefPurchaseUnit" />
+          <ScalarProperty Name="DefSalesUnit" ColumnName="DefSalesUnit" />
+          <ScalarProperty Name="DefSalesPrice" ColumnName="DefSalesPrice" />
+          <ScalarProperty Name="DefPurchasePrice" ColumnName="DefPurchasePrice" />
+          <ScalarProperty Name="ProductType" ColumnName="ProductType" />
+          <ScalarProperty Name="GroupCode" ColumnName="GroupCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductGroup">
+      <EntityTypeMapping TypeName="OK_DBModel.ProductGroup">
+        <MappingFragment StoreEntitySet="ProductGroup">
+          <ScalarProperty Name="GroupCode" ColumnName="GroupCode" />
+          <ScalarProperty Name="GroupName" ColumnName="GroupName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductOffers">
+      <EntityTypeMapping TypeName="OK_DBModel.ProductOffers">
+        <MappingFragment StoreEntitySet="ProductOffers">
+          <ScalarProperty Name="OfferCode" ColumnName="OfferCode" />
+          <ScalarProperty Name="OfferPrice" ColumnName="OfferPrice" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductOnHand">
+      <EntityTypeMapping TypeName="OK_DBModel.ProductOnHand">
+        <MappingFragment StoreEntitySet="ProductOnHand">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Product_Code" ColumnName="Product_Code" />
+          <ScalarProperty Name="WHCode" ColumnName="WHCode" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="Unit_Code" ColumnName="Unit_Code" />
+          <ScalarProperty Name="LastPurchasePrice" ColumnName="LastPurchasePrice" />
+          <ScalarProperty Name="NewPurchasePrice" ColumnName="NewPurchasePrice" />
+          <ScalarProperty Name="AvgCost" ColumnName="AvgCost" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseDetails">
+      <EntityTypeMapping TypeName="OK_DBModel.PurchaseDetails">
+        <MappingFragment StoreEntitySet="PurchaseDetails">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Purchase_Code" ColumnName="Purchase_Code" />
+          <ScalarProperty Name="Product_Code" ColumnName="Product_Code" />
+          <ScalarProperty Name="Unit_Code" ColumnName="Unit_Code" />
+          <ScalarProperty Name="Unit_Price" ColumnName="Unit_Price" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Expired_Date" ColumnName="Expired_Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseHeader">
+      <EntityTypeMapping TypeName="OK_DBModel.PurchaseHeader">
+        <MappingFragment StoreEntitySet="PurchaseHeader">
+          <ScalarProperty Name="Purchase_Code" ColumnName="Purchase_Code" />
+          <ScalarProperty Name="Purchase_Date" ColumnName="Purchase_Date" />
+          <ScalarProperty Name="Purchase_Time" ColumnName="Purchase_Time" />
+          <ScalarProperty Name="Purchase_Total" ColumnName="Purchase_Total" />
+          <ScalarProperty Name="Purchase_Paied" ColumnName="Purchase_Paied" />
+          <ScalarProperty Name="Purchase_Reminder" ColumnName="Purchase_Reminder" />
+          <ScalarProperty Name="Type_Code" ColumnName="Type_Code" />
+          <ScalarProperty Name="Inventory_Code" ColumnName="Inventory_Code" />
+          <ScalarProperty Name="Vendor_Code" ColumnName="Vendor_Code" />
+          <ScalarProperty Name="User_Code" ColumnName="User_Code" />
+          <ScalarProperty Name="PaymentSystem" ColumnName="PaymentSystem" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Role">
+      <EntityTypeMapping TypeName="OK_DBModel.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="Role_Code" ColumnName="Role_Code" />
+          <ScalarProperty Name="Role_Name" ColumnName="Role_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SalesDetails">
+      <EntityTypeMapping TypeName="OK_DBModel.SalesDetails">
+        <MappingFragment StoreEntitySet="SalesDetails">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Sales_Code" ColumnName="Sales_Code" />
+          <ScalarProperty Name="Product_Code" ColumnName="Product_Code" />
+          <ScalarProperty Name="Unit_Code" ColumnName="Unit_Code" />
+          <ScalarProperty Name="Unit_Price" ColumnName="Unit_Price" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Expired_Date" ColumnName="Expired_Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SalesHeader">
+      <EntityTypeMapping TypeName="OK_DBModel.SalesHeader">
+        <MappingFragment StoreEntitySet="SalesHeader">
+          <ScalarProperty Name="Sales_Code" ColumnName="Sales_Code" />
+          <ScalarProperty Name="Sales_Date" ColumnName="Sales_Date" />
+          <ScalarProperty Name="Sales_Time" ColumnName="Sales_Time" />
+          <ScalarProperty Name="Sales_Total" ColumnName="Sales_Total" />
+          <ScalarProperty Name="Sales_Paied" ColumnName="Sales_Paied" />
+          <ScalarProperty Name="Sales_Reminder" ColumnName="Sales_Reminder" />
+          <ScalarProperty Name="Type_Code" ColumnName="Type_Code" />
+          <ScalarProperty Name="Inventory_Code" ColumnName="Inventory_Code" />
+          <ScalarProperty Name="Customer_Code" ColumnName="Customer_Code" />
+          <ScalarProperty Name="User_Code" ColumnName="User_Code" />
+          <ScalarProperty Name="PaymentSystem" ColumnName="PaymentSystem" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Screen">
+      <EntityTypeMapping TypeName="OK_DBModel.Screen">
+        <MappingFragment StoreEntitySet="Screen">
+          <ScalarProperty Name="Screen_Code" ColumnName="Screen_Code" />
+          <ScalarProperty Name="Screen_Name" ColumnName="Screen_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ScreensInRole">
+      <EntityTypeMapping TypeName="OK_DBModel.ScreensInRole">
+        <MappingFragment StoreEntitySet="ScreensInRole">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Role_Code" ColumnName="Role_Code" />
+          <ScalarProperty Name="Screen_Code" ColumnName="Screen_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Site">
+      <EntityTypeMapping TypeName="OK_DBModel.Site">
+        <MappingFragment StoreEntitySet="Site">
+          <ScalarProperty Name="Site_Code" ColumnName="Site_Code" />
+          <ScalarProperty Name="Site_Name" ColumnName="Site_Name" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City_Code" ColumnName="City_Code" />
+          <ScalarProperty Name="Site_Type" ColumnName="Site_Type" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StructureDeminsions">
+      <EntityTypeMapping TypeName="OK_DBModel.StructureDeminsions">
+        <MappingFragment StoreEntitySet="StructureDeminsions">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="StructureCode" ColumnName="StructureCode" />
+          <ScalarProperty Name="FinCatCode" ColumnName="FinCatCode" />
+          <ScalarProperty Name="AccCode" ColumnName="AccCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransactionHeader">
+      <EntityTypeMapping TypeName="OK_DBModel.TransactionHeader">
+        <MappingFragment StoreEntitySet="TransactionHeader">
+          <ScalarProperty Name="transCode" ColumnName="transCode" />
+          <ScalarProperty Name="transDate" ColumnName="transDate" />
+          <ScalarProperty Name="JournalCode" ColumnName="JournalCode" />
+          <ScalarProperty Name="Discription" ColumnName="Discription" />
+          <ScalarProperty Name="UserCode" ColumnName="UserCode" />
+          <ScalarProperty Name="IsPosted" ColumnName="IsPosted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TransactionLines">
+      <EntityTypeMapping TypeName="OK_DBModel.TransactionLines">
+        <MappingFragment StoreEntitySet="TransactionLines">
+          <ScalarProperty Name="LineCode" ColumnName="LineCode" />
+          <ScalarProperty Name="transCode" ColumnName="transCode" />
+          <ScalarProperty Name="LineDate" ColumnName="LineDate" />
+          <ScalarProperty Name="MainType" ColumnName="MainType" />
+          <ScalarProperty Name="accCode" ColumnName="accCode" />
+          <ScalarProperty Name="DebitAmount" ColumnName="DebitAmount" />
+          <ScalarProperty Name="CreditAmount" ColumnName="CreditAmount" />
+          <ScalarProperty Name="Discription" ColumnName="Discription" />
+          <ScalarProperty Name="offsetMainType" ColumnName="offsetMainType" />
+          <ScalarProperty Name="offsetAccCode" ColumnName="offsetAccCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Unit">
+      <EntityTypeMapping TypeName="OK_DBModel.Unit">
+        <MappingFragment StoreEntitySet="Unit">
+          <ScalarProperty Name="Unit_Code" ColumnName="Unit_Code" />
+          <ScalarProperty Name="Unit_Name" ColumnName="Unit_Name" />
+          <ScalarProperty Name="CatCode" ColumnName="CatCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UOMCCategory">
+      <EntityTypeMapping TypeName="OK_DBModel.UOMCCategory">
+        <MappingFragment StoreEntitySet="UOMCCategory">
+          <ScalarProperty Name="CatCode" ColumnName="CatCode" />
+          <ScalarProperty Name="CatName" ColumnName="CatName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UOMConversions">
+      <EntityTypeMapping TypeName="OK_DBModel.UOMConversions">
+        <MappingFragment StoreEntitySet="UOMConversions">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Unit_Code_From" ColumnName="Unit_Code_From" />
+          <ScalarProperty Name="Unit_Code_To" ColumnName="Unit_Code_To" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="Factor" ColumnName="Factor" />
+          <ScalarProperty Name="IsSpecial" ColumnName="IsSpecial" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UOMCType">
+      <EntityTypeMapping TypeName="OK_DBModel.UOMCType">
+        <MappingFragment StoreEntitySet="UOMCType">
+          <ScalarProperty Name="TypeCode" ColumnName="TypeCode" />
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User">
+      <EntityTypeMapping TypeName="OK_DBModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="User_Code" ColumnName="User_Code" />
+          <ScalarProperty Name="User_Name" ColumnName="User_Name" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Employee_Code" ColumnName="Employee_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserRoles">
+      <EntityTypeMapping TypeName="OK_DBModel.UserRoles">
+        <MappingFragment StoreEntitySet="UserRoles">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="User_Code" ColumnName="User_Code" />
+          <ScalarProperty Name="Role_Code" ColumnName="Role_Code" />
+          <ScalarProperty Name="Screen_Code" ColumnName="Screen_Code" />
+          <ScalarProperty Name="Permission_Code" ColumnName="Permission_Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vendor">
+      <EntityTypeMapping TypeName="OK_DBModel.Vendor">
+        <MappingFragment StoreEntitySet="Vendor">
+          <ScalarProperty Name="Vendor_Code" ColumnName="Vendor_Code" />
+          <ScalarProperty Name="Vendor_Name" ColumnName="Vendor_Name" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City_Code" ColumnName="City_Code" />
+          <ScalarProperty Name="Mobile1" ColumnName="Mobile1" />
+          <ScalarProperty Name="Mobile2" ColumnName="Mobile2" />
+          <ScalarProperty Name="EMail" ColumnName="EMail" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="GroupCode" ColumnName="GroupCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VendorGroup">
+      <EntityTypeMapping TypeName="OK_DBModel.VendorGroup">
+        <MappingFragment StoreEntitySet="VendorGroup">
+          <ScalarProperty Name="GroupCode" ColumnName="GroupCode" />
+          <ScalarProperty Name="GroupName" ColumnName="GroupName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VendorPosting">
+      <EntityTypeMapping TypeName="OK_DBModel.VendorPosting">
+        <MappingFragment StoreEntitySet="VendorPosting">
+          <ScalarProperty Name="VendorGroupCode" ColumnName="VendorGroupCode" />
+          <ScalarProperty Name="VendorAccount" ColumnName="VendorAccount" />
+          <ScalarProperty Name="CashAccount" ColumnName="CashAccount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WareHouse">
+      <EntityTypeMapping TypeName="OK_DBModel.WareHouse">
+        <MappingFragment StoreEntitySet="WareHouse">
+          <ScalarProperty Name="WareHouse_Code" ColumnName="WareHouse_Code" />
+          <ScalarProperty Name="WareHouse_Name" ColumnName="WareHouse_Name" />
+          <ScalarProperty Name="Site_Code" ColumnName="Site_Code" />
+          <ScalarProperty Name="WareHouse_Type" ColumnName="WareHouse_Type" />
+          <ScalarProperty Name="ManagerCode" ColumnName="ManagerCode" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BOMHeader">
+      <EntityTypeMapping TypeName="OK_DBModel.BOMHeader">
+        <MappingFragment StoreEntitySet="BOMHeader">
+          <ScalarProperty Name="IsPosted" ColumnName="IsPosted" />
+          <ScalarProperty Name="UserCode" ColumnName="UserCode" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="JournalCode" ColumnName="JournalCode" />
+          <ScalarProperty Name="BOMDate" ColumnName="BOMDate" />
+          <ScalarProperty Name="BOMLookUpCode" ColumnName="BOMLookUpCode" />
+          <ScalarProperty Name="BOMCode" ColumnName="BOMCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BOMIngredientsProducts">
+      <EntityTypeMapping TypeName="OK_DBModel.BOMIngredientsProducts">
+        <MappingFragment StoreEntitySet="BOMIngredientsProducts">
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="WHCode" ColumnName="WHCode" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="BOMCode" ColumnName="BOMCode" />
+          <ScalarProperty Name="OutputCode" ColumnName="OutputCode" />
+          <ScalarProperty Name="LookUpCode" ColumnName="LookUpCode" />
+          <ScalarProperty Name="IngCode" ColumnName="IngCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BOMOutputProduct">
+      <EntityTypeMapping TypeName="OK_DBModel.BOMOutputProduct">
+        <MappingFragment StoreEntitySet="BOMOutputProduct">
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="WHCode" ColumnName="WHCode" />
+          <ScalarProperty Name="ProductCode" ColumnName="ProductCode" />
+          <ScalarProperty Name="BOMCode" ColumnName="BOMCode" />
+          <ScalarProperty Name="LookUpCode" ColumnName="LookUpCode" />
+          <ScalarProperty Name="OutputCode" ColumnName="OutputCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
